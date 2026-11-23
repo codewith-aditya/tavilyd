@@ -1,0 +1,1545 @@
+{
+  "label": "gpu",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "3pbkmm",
+  "generated_at": "2026-11-22T06:56:18Z",
+  "gpu": {
+    "samples": 115,
+    "vram_used_mb_peak": 3830.0,
+    "vram_used_mb_mean": 3566.3,
+    "gpu_util_pct_peak": 100.0,
+    "gpu_util_pct_mean": 34.7
+  },
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices 3pbkmm01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 739.0,
+        "tier1": 14.0,
+        "tier2": 0.0,
+        "rerank": 431.0,
+        "total": 1176.0
+      },
+      "client_ms": 1187.86,
+      "response_time": 1.176,
+      "results": 5,
+      "request_id": "5d41e74d-2d79-4b19-8d40-63566ac35835"
+    },
+    {
+      "mode": "advanced",
+      "query": "golang context cancellation best practices 3pbkmm01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 652.0,
+        "tier1": 1055.0,
+        "tier2": 2567.0,
+        "rerank": 1044.0,
+        "total": 4268.0
+      },
+      "client_ms": 4269.97,
+      "response_time": 4.269,
+      "results": 5,
+      "request_id": "16e105a7-6d4c-4f8d-93e6-1ad99f77cc18"
+    },
+    {
+      "mode": "cache",
+      "query": "golang context cancellation best practices 3pbkmm01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.93,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "a18867b2-364f-4cfc-917d-61179bb77c45"
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather 3pbkmm02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 756.0,
+        "tier1": 3.0,
+        "tier2": 0.0,
+        "rerank": 340.0,
+        "total": 1099.0
+      },
+      "client_ms": 1100.36,
+      "response_time": 1.099,
+      "results": 5,
+      "request_id": "5b67e943-0fa8-4222-9f71-18a81caec708"
+    },
+    {
+      "mode": "advanced",
+      "query": "python asyncio taskgroup vs gather 3pbkmm02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 679.0,
+        "tier1": 7.0,
+        "tier2": 5151.0,
+        "rerank": 918.0,
+        "total": 4197.0
+      },
+      "client_ms": 4198.76,
+      "response_time": 4.198,
+      "results": 4,
+      "request_id": "83e29057-2a74-4c83-a061-2ef25fd423b8"
+    },
+    {
+      "mode": "cache",
+      "query": "python asyncio taskgroup vs gather 3pbkmm02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.84,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "df34c849-94ef-4c08-a71f-b5256cb7c0d0"
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example 3pbkmm03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 671.0,
+        "tier1": 7.0,
+        "tier2": 0.0,
+        "rerank": 307.0,
+        "total": 982.0
+      },
+      "client_ms": 983.31,
+      "response_time": 0.983,
+      "results": 5,
+      "request_id": "5a1dd09c-b713-4ef8-8727-a76a66eda49b"
+    },
+    {
+      "mode": "advanced",
+      "query": "kubernetes pod disruption budget example 3pbkmm03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 716.0,
+        "tier1": 6.0,
+        "tier2": 0.0,
+        "rerank": 1029.0,
+        "total": 1750.0
+      },
+      "client_ms": 1751.61,
+      "response_time": 1.751,
+      "results": 5,
+      "request_id": "046e0718-2cca-49b4-9619-5f44573558ef"
+    },
+    {
+      "mode": "cache",
+      "query": "kubernetes pod disruption budget example 3pbkmm03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.83,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "3a83594a-38e5-499e-8339-4f3de8cf808f"
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis 3pbkmm04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 703.0,
+        "tier1": 1087.0,
+        "tier2": 0.0,
+        "rerank": 426.0,
+        "total": 1495.0
+      },
+      "client_ms": 1496.0,
+      "response_time": 1.495,
+      "results": 5,
+      "request_id": "48a8180f-fe0d-4026-a74d-ed1d3fb21feb"
+    },
+    {
+      "mode": "advanced",
+      "query": "postgres index bloat diagnosis 3pbkmm04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 654.0,
+        "tier1": 10.0,
+        "tier2": 3886.0,
+        "rerank": 732.0,
+        "total": 5276.0
+      },
+      "client_ms": 5277.05,
+      "response_time": 5.276,
+      "results": 3,
+      "request_id": "afe3d90a-7d95-429c-ab9c-65f9b8b8147e"
+    },
+    {
+      "mode": "cache",
+      "query": "postgres index bloat diagnosis 3pbkmm04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "8139dee3-9823-42aa-8ce8-35f03bbd836f"
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs 3pbkmm05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 723.0,
+        "tier1": 14.0,
+        "tier2": 0.0,
+        "rerank": 263.0,
+        "total": 993.0
+      },
+      "client_ms": 994.39,
+      "response_time": 0.994,
+      "results": 5,
+      "request_id": "d481a7ed-dbc7-468b-9cfe-de0ae90b6307"
+    },
+    {
+      "mode": "advanced",
+      "query": "redis persistence aof vs rdb tradeoffs 3pbkmm05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 626.0,
+        "tier1": 6.0,
+        "tier2": 0.0,
+        "rerank": 798.0,
+        "total": 1428.0
+      },
+      "client_ms": 1429.27,
+      "response_time": 1.428,
+      "results": 5,
+      "request_id": "0cc2b892-254e-427a-a341-dd9edd0c2b5c"
+    },
+    {
+      "mode": "cache",
+      "query": "redis persistence aof vs rdb tradeoffs 3pbkmm05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.8,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "843d4839-6161-4d50-8601-bc8a7857d02a"
+    },
+    {
+      "mode": "basic",
+      "query": "docker compose healthcheck depends_on 3pbkmm06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 684.0,
+        "tier1": 314.0,
+        "tier2": 0.0,
+        "rerank": 241.0,
+        "total": 1062.0
+      },
+      "client_ms": 1063.55,
+      "response_time": 1.063,
+      "results": 4,
+      "request_id": "b2555652-5e5a-4628-9cd0-3c0cb3cd44bf"
+    },
+    {
+      "mode": "advanced",
+      "query": "docker compose healthcheck depends_on 3pbkmm06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 642.0,
+        "tier1": 3.0,
+        "tier2": 0.0,
+        "rerank": 720.0,
+        "total": 1365.0
+      },
+      "client_ms": 1365.83,
+      "response_time": 1.365,
+      "results": 4,
+      "request_id": "7a450504-d042-419a-85a2-43263a1d520c"
+    },
+    {
+      "mode": "cache",
+      "query": "docker compose healthcheck depends_on 3pbkmm06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.78,
+      "response_time": 0,
+      "results": 4,
+      "request_id": "86cfec11-b370-407a-bab0-f36b1ba7eb03"
+    },
+    {
+      "mode": "basic",
+      "query": "linux cgroup v2 memory limit 3pbkmm07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 675.0,
+        "tier1": 17.0,
+        "tier2": 0.0,
+        "rerank": 341.0,
+        "total": 1024.0
+      },
+      "client_ms": 1025.2,
+      "response_time": 1.025,
+      "results": 5,
+      "request_id": "8a2c92fa-a2f6-410e-a440-3f1073b5e233"
+    },
+    {
+      "mode": "advanced",
+      "query": "linux cgroup v2 memory limit 3pbkmm07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 678.0,
+        "tier1": 2918.0,
+        "tier2": 3748.0,
+        "rerank": 819.0,
+        "total": 5252.0
+      },
+      "client_ms": 5253.05,
+      "response_time": 5.252,
+      "results": 5,
+      "request_id": "3f62de47-a87e-485d-a402-eeab46ce701d"
+    },
+    {
+      "mode": "cache",
+      "query": "linux cgroup v2 memory limit 3pbkmm07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.79,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "fda5f210-e5fd-4497-ab62-7d9df5840c39"
+    },
+    {
+      "mode": "basic",
+      "query": "nginx reverse proxy websocket upgrade 3pbkmm08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 676.0,
+        "tier1": 8.0,
+        "tier2": 0.0,
+        "rerank": 309.0,
+        "total": 989.0
+      },
+      "client_ms": 990.67,
+      "response_time": 0.99,
+      "results": 5,
+      "request_id": "f3545f8f-9a64-474e-a8e3-4f9e76bfed5a"
+    },
+    {
+      "mode": "advanced",
+      "query": "nginx reverse proxy websocket upgrade 3pbkmm08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 607.0,
+        "tier1": 10.0,
+        "tier2": 0.0,
+        "rerank": 1185.0,
+        "total": 1798.0
+      },
+      "client_ms": 1799.26,
+      "response_time": 1.798,
+      "results": 5,
+      "request_id": "daf8a99a-c93e-4adc-bcd0-bd2426700fc3"
+    },
+    {
+      "mode": "cache",
+      "query": "nginx reverse proxy websocket upgrade 3pbkmm08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.78,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "a9263695-59ff-4313-84fc-a2587365650e"
+    },
+    {
+      "mode": "basic",
+      "query": "typescript decorators metadata reflection 3pbkmm09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 625.0,
+        "tier1": 473.0,
+        "tier2": 0.0,
+        "rerank": 378.0,
+        "total": 1242.0
+      },
+      "client_ms": 1242.91,
+      "response_time": 1.242,
+      "results": 5,
+      "request_id": "d6c95da5-70a0-4263-8ff2-8fbe3a324844"
+    },
+    {
+      "mode": "advanced",
+      "query": "typescript decorators metadata reflection 3pbkmm09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 553.0,
+        "tier1": 7.0,
+        "tier2": 1316.0,
+        "rerank": 863.0,
+        "total": 2736.0
+      },
+      "client_ms": 2737.19,
+      "response_time": 2.736,
+      "results": 4,
+      "request_id": "5fd9a2c2-b749-4cd8-8539-2da7c2cd0b9a"
+    },
+    {
+      "mode": "cache",
+      "query": "typescript decorators metadata reflection 3pbkmm09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.88,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "a25b3877-9f59-4de7-aba2-322bf8b0bef0"
+    },
+    {
+      "mode": "basic",
+      "query": "rust async runtime tokio work stealing 3pbkmm10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 636.0,
+        "tier1": 3.0,
+        "tier2": 0.0,
+        "rerank": 299.0,
+        "total": 938.0
+      },
+      "client_ms": 939.55,
+      "response_time": 0.939,
+      "results": 5,
+      "request_id": "80c5509e-e2fc-4d6d-ab69-212b5615b395"
+    },
+    {
+      "mode": "advanced",
+      "query": "rust async runtime tokio work stealing 3pbkmm10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 816.0,
+        "tier1": 787.0,
+        "tier2": 0.0,
+        "rerank": 801.0,
+        "total": 2107.0
+      },
+      "client_ms": 2108.42,
+      "response_time": 2.108,
+      "results": 5,
+      "request_id": "2e958d80-7fca-4b01-adbc-09304e9e1d03"
+    },
+    {
+      "mode": "cache",
+      "query": "rust async runtime tokio work stealing 3pbkmm10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.81,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "940b1281-8b93-45cc-b71b-ca30ce36b4b1"
+    },
+    {
+      "mode": "basic",
+      "query": "sqlite wal mode concurrent readers 3pbkmm11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 687.0,
+        "tier1": 3.0,
+        "tier2": 0.0,
+        "rerank": 456.0,
+        "total": 1146.0
+      },
+      "client_ms": 1147.03,
+      "response_time": 1.146,
+      "results": 5,
+      "request_id": "1ea1e32e-9ea3-4c82-bd5c-bc707dd5f22f"
+    },
+    {
+      "mode": "advanced",
+      "query": "sqlite wal mode concurrent readers 3pbkmm11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 647.0,
+        "tier1": 4.0,
+        "tier2": 0.0,
+        "rerank": 1420.0,
+        "total": 2072.0
+      },
+      "client_ms": 2073.78,
+      "response_time": 2.073,
+      "results": 5,
+      "request_id": "9e44dd18-0eb0-4011-8d37-14320c000111"
+    },
+    {
+      "mode": "cache",
+      "query": "sqlite wal mode concurrent readers 3pbkmm11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.79,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "dbc1dad6-bb94-4033-abdb-d496ff2ff6a4"
+    },
+    {
+      "mode": "basic",
+      "query": "prometheus histogram quantiles explained 3pbkmm12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 655.0,
+        "tier1": 14.0,
+        "tier2": 0.0,
+        "rerank": 323.0,
+        "total": 985.0
+      },
+      "client_ms": 986.03,
+      "response_time": 0.985,
+      "results": 5,
+      "request_id": "8fe8044a-91ca-4ba8-9be0-9776271923c7"
+    },
+    {
+      "mode": "advanced",
+      "query": "prometheus histogram quantiles explained 3pbkmm12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 715.0,
+        "tier1": 4.0,
+        "tier2": 2547.0,
+        "rerank": 887.0,
+        "total": 4154.0
+      },
+      "client_ms": 4154.87,
+      "response_time": 4.154,
+      "results": 4,
+      "request_id": "51aadf8b-0d34-43d2-9ade-b3ba8fcd0fc7"
+    },
+    {
+      "mode": "cache",
+      "query": "prometheus histogram quantiles explained 3pbkmm12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.78,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "8698e0c2-4bdf-446d-a0fa-1da72582864f"
+    },
+    {
+      "mode": "basic",
+      "query": "kafka exactly once semantics transactions 3pbkmm13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 787.0,
+        "tier1": 7.0,
+        "tier2": 0.0,
+        "rerank": 325.0,
+        "total": 1118.0
+      },
+      "client_ms": 1119.27,
+      "response_time": 1.119,
+      "results": 5,
+      "request_id": "738d8fe1-ab3e-447b-8b06-644780caaf6e"
+    },
+    {
+      "mode": "advanced",
+      "query": "kafka exactly once semantics transactions 3pbkmm13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 702.0,
+        "tier1": 536.0,
+        "tier2": 0.0,
+        "rerank": 850.0,
+        "total": 2083.0
+      },
+      "client_ms": 2084.18,
+      "response_time": 2.083,
+      "results": 5,
+      "request_id": "94182455-1f1d-4bc5-9c8f-4a4388f8a115"
+    },
+    {
+      "mode": "cache",
+      "query": "kafka exactly once semantics transactions 3pbkmm13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "c8275153-6099-42a0-ac51-72bd330cdcf7"
+    },
+    {
+      "mode": "basic",
+      "query": "http2 server push deprecated why 3pbkmm14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 796.0,
+        "tier1": 1836.0,
+        "tier2": 0.0,
+        "rerank": 299.0,
+        "total": 1798.0
+      },
+      "client_ms": 1799.12,
+      "response_time": 1.798,
+      "results": 5,
+      "request_id": "05771f57-9c9f-484a-aaff-a7b45f05d82e"
+    },
+    {
+      "mode": "advanced",
+      "query": "http2 server push deprecated why 3pbkmm14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 626.0,
+        "tier1": 1921.0,
+        "tier2": 272.0,
+        "rerank": 738.0,
+        "total": 2118.0
+      },
+      "client_ms": 2118.95,
+      "response_time": 2.118,
+      "results": 5,
+      "request_id": "741750aa-af24-43fc-aa56-b8a0a25cfb8a"
+    },
+    {
+      "mode": "cache",
+      "query": "http2 server push deprecated why 3pbkmm14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.77,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "b8fb2421-801d-4d5d-84bc-d0f707b61a83"
+    },
+    {
+      "mode": "basic",
+      "query": "websocket load balancing haproxy 3pbkmm15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 644.0,
+        "tier1": 3154.0,
+        "tier2": 0.0,
+        "rerank": 241.0,
+        "total": 2464.0
+      },
+      "client_ms": 2465.37,
+      "response_time": 2.465,
+      "results": 4,
+      "request_id": "7838f3e9-9fa4-43c6-841f-24f15c66be1e"
+    },
+    {
+      "mode": "advanced",
+      "query": "websocket load balancing haproxy 3pbkmm15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 751.0,
+        "tier1": 4.0,
+        "tier2": 0.0,
+        "rerank": 825.0,
+        "total": 1582.0
+      },
+      "client_ms": 1582.95,
+      "response_time": 1.582,
+      "results": 4,
+      "request_id": "4d8a8570-1e8e-4c29-900b-0ab4e17646ac"
+    },
+    {
+      "mode": "cache",
+      "query": "websocket load balancing haproxy 3pbkmm15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.83,
+      "response_time": 0,
+      "results": 4,
+      "request_id": "e9971156-8957-4e70-a190-a00f329427e5"
+    },
+    {
+      "mode": "basic",
+      "query": "react server components streaming 3pbkmm16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 675.0,
+        "tier1": 9.0,
+        "tier2": 0.0,
+        "rerank": 322.0,
+        "total": 1005.0
+      },
+      "client_ms": 1006.33,
+      "response_time": 1.005,
+      "results": 5,
+      "request_id": "dba758aa-4853-4639-87fd-e395355e1ffe"
+    },
+    {
+      "mode": "advanced",
+      "query": "react server components streaming 3pbkmm16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 598.0,
+        "tier1": 7.0,
+        "tier2": 0.0,
+        "rerank": 942.0,
+        "total": 1547.0
+      },
+      "client_ms": 1548.71,
+      "response_time": 1.548,
+      "results": 5,
+      "request_id": "05f8f4d0-fca8-4611-b06e-0ba945b3c6fe"
+    },
+    {
+      "mode": "cache",
+      "query": "react server components streaming 3pbkmm16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "f19b58c9-ae9a-43af-9b7d-922c6fb8e716"
+    },
+    {
+      "mode": "basic",
+      "query": "css container queries support 3pbkmm17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 633.0,
+        "tier1": 3172.0,
+        "tier2": 0.0,
+        "rerank": 325.0,
+        "total": 2172.0
+      },
+      "client_ms": 2173.16,
+      "response_time": 2.172,
+      "results": 5,
+      "request_id": "8b642a69-7003-4c3e-921b-09e2c89dde89"
+    },
+    {
+      "mode": "advanced",
+      "query": "css container queries support 3pbkmm17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 582.0,
+        "tier1": 2753.0,
+        "tier2": 0.0,
+        "rerank": 803.0,
+        "total": 2144.0
+      },
+      "client_ms": 2145.37,
+      "response_time": 2.145,
+      "results": 5,
+      "request_id": "0cd0f3a4-27dc-44bd-88d2-baf0096b776b"
+    },
+    {
+      "mode": "cache",
+      "query": "css container queries support 3pbkmm17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.77,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "859587ff-1cc2-4f6c-8b3f-5a75a48a6243"
+    },
+    {
+      "mode": "basic",
+      "query": "webassembly component model status 3pbkmm18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 578.0,
+        "tier1": 8.0,
+        "tier2": 0.0,
+        "rerank": 457.0,
+        "total": 1041.0
+      },
+      "client_ms": 1042.31,
+      "response_time": 1.041,
+      "results": 5,
+      "request_id": "33cec664-a02c-442a-808f-2c39e407e00a"
+    },
+    {
+      "mode": "advanced",
+      "query": "webassembly component model status 3pbkmm18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 438.0,
+        "tier1": 12.0,
+        "tier2": 0.0,
+        "rerank": 1374.0,
+        "total": 1821.0
+      },
+      "client_ms": 1822.71,
+      "response_time": 1.822,
+      "results": 5,
+      "request_id": "5679967e-277c-4792-8b75-d9a610dd1cef"
+    },
+    {
+      "mode": "cache",
+      "query": "webassembly component model status 3pbkmm18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 1.09,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "bc0803ff-276c-4160-ae94-c73fe2870137"
+    },
+    {
+      "mode": "basic",
+      "query": "open telemetry collector pipeline 3pbkmm19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 600.0,
+        "tier1": 5.0,
+        "tier2": 0.0,
+        "rerank": 461.0,
+        "total": 1065.0
+      },
+      "client_ms": 1065.97,
+      "response_time": 1.065,
+      "results": 5,
+      "request_id": "67a7f3eb-5ff4-481e-8ab4-337741d80735"
+    },
+    {
+      "mode": "advanced",
+      "query": "open telemetry collector pipeline 3pbkmm19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 536.0,
+        "tier1": 9.0,
+        "tier2": 0.0,
+        "rerank": 1382.0,
+        "total": 1925.0
+      },
+      "client_ms": 1926.31,
+      "response_time": 1.925,
+      "results": 5,
+      "request_id": "ffdf6682-cf63-4880-95cd-6c04c863935a"
+    },
+    {
+      "mode": "cache",
+      "query": "open telemetry collector pipeline 3pbkmm19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "688afa33-4753-414f-be9b-d7f6186fea1b"
+    },
+    {
+      "mode": "basic",
+      "query": "terraform state locking dynamodb 3pbkmm20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 621.0,
+        "tier1": 3.0,
+        "tier2": 0.0,
+        "rerank": 295.0,
+        "total": 919.0
+      },
+      "client_ms": 920.58,
+      "response_time": 0.92,
+      "results": 5,
+      "request_id": "e556ea80-bf26-48aa-88ae-29654ed61daa"
+    },
+    {
+      "mode": "advanced",
+      "query": "terraform state locking dynamodb 3pbkmm20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 664.0,
+        "tier1": 300.0,
+        "tier2": 2552.0,
+        "rerank": 1080.0,
+        "total": 4301.0
+      },
+      "client_ms": 4302.48,
+      "response_time": 4.302,
+      "results": 5,
+      "request_id": "484ce023-69c8-4b75-887f-183e503252dc"
+    },
+    {
+      "mode": "cache",
+      "query": "terraform state locking dynamodb 3pbkmm20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.8,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "f7cdc5b7-a4ce-442f-9dd5-6d61d7cc1a29"
+    },
+    {
+      "mode": "basic",
+      "query": "aws lambda cold start mitigation 3pbkmm21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 679.0,
+        "tier1": 6.0,
+        "tier2": 0.0,
+        "rerank": 236.0,
+        "total": 919.0
+      },
+      "client_ms": 920.63,
+      "response_time": 0.92,
+      "results": 5,
+      "request_id": "1aecfc91-e392-4582-9c0e-4f502a0b0d24"
+    },
+    {
+      "mode": "advanced",
+      "query": "aws lambda cold start mitigation 3pbkmm21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 602.0,
+        "tier1": 917.0,
+        "tier2": 323.0,
+        "rerank": 513.0,
+        "total": 2029.0
+      },
+      "client_ms": 2030.71,
+      "response_time": 2.03,
+      "results": 5,
+      "request_id": "550d112f-77da-4773-bb08-d4c403a437ac"
+    },
+    {
+      "mode": "cache",
+      "query": "aws lambda cold start mitigation 3pbkmm21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 1.01,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "82544533-3e34-4605-b4cc-f6701c5501be"
+    },
+    {
+      "mode": "basic",
+      "query": "cloudflare workers durable objects 3pbkmm22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 677.0,
+        "tier1": 648.0,
+        "tier2": 0.0,
+        "rerank": 486.0,
+        "total": 1643.0
+      },
+      "client_ms": 1644.38,
+      "response_time": 1.643,
+      "results": 5,
+      "request_id": "ee29be8d-8d52-4718-b172-f433f0328d2b"
+    },
+    {
+      "mode": "advanced",
+      "query": "cloudflare workers durable objects 3pbkmm22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 567.0,
+        "tier1": 873.0,
+        "tier2": 0.0,
+        "rerank": 1500.0,
+        "total": 2697.0
+      },
+      "client_ms": 2698.61,
+      "response_time": 2.698,
+      "results": 5,
+      "request_id": "bff79ab1-ad2d-4fe8-a9ad-da038c7a3595"
+    },
+    {
+      "mode": "cache",
+      "query": "cloudflare workers durable objects 3pbkmm22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.94,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "5ba76277-7459-4df9-8f4d-74d086f14775"
+    },
+    {
+      "mode": "basic",
+      "query": "grpc deadline propagation 3pbkmm23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 677.0,
+        "tier1": 835.0,
+        "tier2": 0.0,
+        "rerank": 381.0,
+        "total": 1436.0
+      },
+      "client_ms": 1437.43,
+      "response_time": 1.436,
+      "results": 5,
+      "request_id": "c3613d27-411c-46bb-871b-f76dc1aeb119"
+    },
+    {
+      "mode": "advanced",
+      "query": "grpc deadline propagation 3pbkmm23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 677.0,
+        "tier1": 8.0,
+        "tier2": 0.0,
+        "rerank": 1050.0,
+        "total": 1733.0
+      },
+      "client_ms": 1734.52,
+      "response_time": 1.734,
+      "results": 5,
+      "request_id": "4b2cae47-503c-49e4-a4a7-856587566611"
+    },
+    {
+      "mode": "cache",
+      "query": "grpc deadline propagation 3pbkmm23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.86,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "48ba38c8-d7ee-4a41-8e2a-68555a32755c"
+    },
+    {
+      "mode": "basic",
+      "query": "protobuf field presence optional 3pbkmm24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 668.0,
+        "tier1": 5.0,
+        "tier2": 0.0,
+        "rerank": 397.0,
+        "total": 1070.0
+      },
+      "client_ms": 1071.78,
+      "response_time": 1.071,
+      "results": 5,
+      "request_id": "9c025dd6-8f88-408f-9f52-3f24c252d19b"
+    },
+    {
+      "mode": "advanced",
+      "query": "protobuf field presence optional 3pbkmm24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 646.0,
+        "tier1": 5.0,
+        "tier2": 0.0,
+        "rerank": 949.0,
+        "total": 1601.0
+      },
+      "client_ms": 1602.38,
+      "response_time": 1.601,
+      "results": 5,
+      "request_id": "aa301ebd-ea78-438f-9e4f-698024058d28"
+    },
+    {
+      "mode": "cache",
+      "query": "protobuf field presence optional 3pbkmm24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "7f2831fa-163f-4b1a-a992-61195995a3fb"
+    },
+    {
+      "mode": "basic",
+      "query": "sql injection prepared statements 3pbkmm25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 759.0,
+        "tier1": 891.0,
+        "tier2": 0.0,
+        "rerank": 462.0,
+        "total": 1643.0
+      },
+      "client_ms": 1644.21,
+      "response_time": 1.643,
+      "results": 5,
+      "request_id": "f4fab78b-6521-41be-90c0-d96a70b04114"
+    },
+    {
+      "mode": "advanced",
+      "query": "sql injection prepared statements 3pbkmm25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 729.0,
+        "tier1": 997.0,
+        "tier2": 2555.0,
+        "rerank": 1426.0,
+        "total": 4715.0
+      },
+      "client_ms": 4716.21,
+      "response_time": 4.715,
+      "results": 5,
+      "request_id": "d093f4dc-1c1d-48b3-838d-5ab630f8c7e9"
+    },
+    {
+      "mode": "cache",
+      "query": "sql injection prepared statements 3pbkmm25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.9,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "aa527b77-660c-4730-b0c3-ea1a45e0b621"
+    },
+    {
+      "mode": "basic",
+      "query": "oauth2 pkce flow mobile apps 3pbkmm26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 782.0,
+        "tier1": 2118.0,
+        "tier2": 0.0,
+        "rerank": 414.0,
+        "total": 1804.0
+      },
+      "client_ms": 1804.93,
+      "response_time": 1.804,
+      "results": 5,
+      "request_id": "86cd96b0-cbd6-455e-bd68-32f74110aaee"
+    },
+    {
+      "mode": "advanced",
+      "query": "oauth2 pkce flow mobile apps 3pbkmm26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 618.0,
+        "tier1": 509.0,
+        "tier2": 466.0,
+        "rerank": 1047.0,
+        "total": 1906.0
+      },
+      "client_ms": 1907.48,
+      "response_time": 1.907,
+      "results": 5,
+      "request_id": "faabcf1a-b110-463b-8d6a-50003f0f9b61"
+    },
+    {
+      "mode": "cache",
+      "query": "oauth2 pkce flow mobile apps 3pbkmm26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.87,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "4fec4cbf-c734-40cc-a94a-1bcf62c4903b"
+    },
+    {
+      "mode": "basic",
+      "query": "jwt rotation refresh tokens 3pbkmm27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 632.0,
+        "tier1": 2947.0,
+        "tier2": 0.0,
+        "rerank": 336.0,
+        "total": 2197.0
+      },
+      "client_ms": 2197.88,
+      "response_time": 2.197,
+      "results": 5,
+      "request_id": "83725ffd-e1b4-4e2b-b923-3de779e6153b"
+    },
+    {
+      "mode": "advanced",
+      "query": "jwt rotation refresh tokens 3pbkmm27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 567.0,
+        "tier1": 498.0,
+        "tier2": 956.0,
+        "rerank": 571.0,
+        "total": 1775.0
+      },
+      "client_ms": 1776.71,
+      "response_time": 1.776,
+      "results": 4,
+      "request_id": "579c979a-66a7-4474-9ef8-78e63be4822c"
+    },
+    {
+      "mode": "cache",
+      "query": "jwt rotation refresh tokens 3pbkmm27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.7,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "d7987352-785e-4356-af25-2ba35174e6b0"
+    },
+    {
+      "mode": "basic",
+      "query": "bash process substitution examples 3pbkmm28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 654.0,
+        "tier1": 2248.0,
+        "tier2": 0.0,
+        "rerank": 503.0,
+        "total": 2242.0
+      },
+      "client_ms": 2243.12,
+      "response_time": 2.242,
+      "results": 5,
+      "request_id": "fcb09558-7042-4e4c-a92f-545de1f1acbc"
+    },
+    {
+      "mode": "advanced",
+      "query": "bash process substitution examples 3pbkmm28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 609.0,
+        "tier1": 1415.0,
+        "tier2": 0.0,
+        "rerank": 1266.0,
+        "total": 2918.0
+      },
+      "client_ms": 2919.15,
+      "response_time": 2.918,
+      "results": 5,
+      "request_id": "1acc67bc-9f5d-4962-a340-40a2d085d2fe"
+    },
+    {
+      "mode": "cache",
+      "query": "bash process substitution examples 3pbkmm28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.76,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "923aedcb-b975-46ef-bf68-d5f3005a1db0"
+    },
+    {
+      "mode": "basic",
+      "query": "git rebase interactive squash 3pbkmm29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 878.0,
+        "tier1": 745.0,
+        "tier2": 0.0,
+        "rerank": 333.0,
+        "total": 1463.0
+      },
+      "client_ms": 1464.48,
+      "response_time": 1.464,
+      "results": 5,
+      "request_id": "129d7f90-807e-4a06-8012-de666ba923cb"
+    },
+    {
+      "mode": "advanced",
+      "query": "git rebase interactive squash 3pbkmm29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 589.0,
+        "tier1": 2.0,
+        "tier2": 0.0,
+        "rerank": 516.0,
+        "total": 1108.0
+      },
+      "client_ms": 1109.58,
+      "response_time": 1.109,
+      "results": 4,
+      "request_id": "8aa2ea92-1fbb-4d00-ae02-8caf6ac03362"
+    },
+    {
+      "mode": "cache",
+      "query": "git rebase interactive squash 3pbkmm29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.83,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "80258d0c-1063-4f81-aeb8-9fa2922385f6"
+    },
+    {
+      "mode": "basic",
+      "query": "ffmpeg hardware acceleration nvenc 3pbkmm30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 792.0,
+        "tier1": 17.0,
+        "tier2": 0.0,
+        "rerank": 418.0,
+        "total": 1217.0
+      },
+      "client_ms": 1218.44,
+      "response_time": 1.218,
+      "results": 5,
+      "request_id": "687a35a2-68d0-4438-9c00-6427a68f2dc6"
+    },
+    {
+      "mode": "advanced",
+      "query": "ffmpeg hardware acceleration nvenc 3pbkmm30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 597.0,
+        "tier1": 283.0,
+        "tier2": 0.0,
+        "rerank": 1060.0,
+        "total": 1938.0
+      },
+      "client_ms": 1939.38,
+      "response_time": 1.938,
+      "results": 5,
+      "request_id": "2c1b4a41-0ab4-4575-a366-a76473d9e51f"
+    },
+    {
+      "mode": "cache",
+      "query": "ffmpeg hardware acceleration nvenc 3pbkmm30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.92,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "49a146ad-cd06-472f-8c26-83bbb0d80124"
+    }
+  ]
+}

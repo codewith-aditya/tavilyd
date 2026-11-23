@@ -1,0 +1,1545 @@
+{
+  "label": "baseline",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "t677mg",
+  "generated_at": "2026-11-22T06:29:38Z",
+  "gpu": {
+    "samples": 103,
+    "vram_used_mb_peak": 1406.0,
+    "vram_used_mb_mean": 1403.9,
+    "gpu_util_pct_peak": 39.0,
+    "gpu_util_pct_mean": 17.3
+  },
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices t677mg01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 744.0,
+        "tier1": 1324.0,
+        "tier2": 0.0,
+        "rerank": 1501.0,
+        "total": 2660.0
+      },
+      "client_ms": 2678.31,
+      "response_time": 2.66,
+      "results": 5,
+      "request_id": "af77e605-eb16-4c7e-a1fe-b690937973f8"
+    },
+    {
+      "mode": "advanced",
+      "query": "golang context cancellation best practices t677mg01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 593.0,
+        "tier1": 1347.0,
+        "tier2": 3544.0,
+        "rerank": 4.0,
+        "total": 4147.0
+      },
+      "client_ms": 4148.22,
+      "response_time": 4.147,
+      "results": 5,
+      "request_id": "63d4bbc4-94f3-400a-963b-1a6ed15983be"
+    },
+    {
+      "mode": "cache",
+      "query": "golang context cancellation best practices t677mg01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.86,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "428184a0-aefe-4fe7-a6b2-d20121e589b5"
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather t677mg02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 747.0,
+        "tier1": 2094.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1408.0
+      },
+      "client_ms": 1409.23,
+      "response_time": 1.408,
+      "results": 5,
+      "request_id": "0b1ef7da-7127-408d-aa8f-2d62055a66c6"
+    },
+    {
+      "mode": "advanced",
+      "query": "python asyncio taskgroup vs gather t677mg02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 621.0,
+        "tier1": 980.0,
+        "tier2": 7135.0,
+        "rerank": 1.0,
+        "total": 4218.0
+      },
+      "client_ms": 4219.79,
+      "response_time": 4.219,
+      "results": 5,
+      "request_id": "0dc147d4-ee55-42f6-bb2c-c22b707a6482"
+    },
+    {
+      "mode": "cache",
+      "query": "python asyncio taskgroup vs gather t677mg02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.87,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "7c2bc8d2-7119-48e7-aeec-2281f141654f"
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example t677mg03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 732.0,
+        "tier1": 1107.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1150.0
+      },
+      "client_ms": 1152.47,
+      "response_time": 1.151,
+      "results": 5,
+      "request_id": "5e6658cb-a9cb-4bc3-be2f-85cba38ba4fa"
+    },
+    {
+      "mode": "advanced",
+      "query": "kubernetes pod disruption budget example t677mg03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 622.0,
+        "tier1": 1367.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1000.0
+      },
+      "client_ms": 1001.64,
+      "response_time": 1.001,
+      "results": 5,
+      "request_id": "8bba403b-038a-4842-a118-c59f4ec2389e"
+    },
+    {
+      "mode": "cache",
+      "query": "kubernetes pod disruption budget example t677mg03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 1.08,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "4da23f0c-0d45-453d-9f75-17e4f67a42b3"
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis t677mg04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1097.0,
+        "tier1": 7683.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 2488.0
+      },
+      "client_ms": 2489.45,
+      "response_time": 2.489,
+      "results": 2,
+      "request_id": "6d710f41-6cb2-4d72-871c-e0778c1909be"
+    },
+    {
+      "mode": "advanced",
+      "query": "postgres index bloat diagnosis t677mg04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 662.0,
+        "tier1": 1118.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1161.0
+      },
+      "client_ms": 1162.58,
+      "response_time": 1.162,
+      "results": 3,
+      "request_id": "5ac3285a-75f5-406b-9897-456ad0c8d478"
+    },
+    {
+      "mode": "cache",
+      "query": "postgres index bloat diagnosis t677mg04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.7,
+      "response_time": 0,
+      "results": 2,
+      "request_id": "2872f6be-67bd-4ec2-af68-b3337908b704"
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs t677mg05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 658.0,
+        "tier1": 3309.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1894.0
+      },
+      "client_ms": 1895.47,
+      "response_time": 1.894,
+      "results": 5,
+      "request_id": "b240afd1-ed1a-4b3f-8fed-a9c4f4e0724d"
+    },
+    {
+      "mode": "advanced",
+      "query": "redis persistence aof vs rdb tradeoffs t677mg05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 588.0,
+        "tier1": 1776.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1068.0
+      },
+      "client_ms": 1069.31,
+      "response_time": 1.068,
+      "results": 5,
+      "request_id": "306fd236-e8cd-4aad-8cb3-557eda62a9b2"
+    },
+    {
+      "mode": "cache",
+      "query": "redis persistence aof vs rdb tradeoffs t677mg05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.84,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "5d82c103-72fa-4756-b18a-bd7b652cefb0"
+    },
+    {
+      "mode": "basic",
+      "query": "docker compose healthcheck depends_on t677mg06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 661.0,
+        "tier1": 1991.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1823.0
+      },
+      "client_ms": 1824.1,
+      "response_time": 1.823,
+      "results": 4,
+      "request_id": "2814e6c4-b7d0-485e-a0bf-c4dba21b9435"
+    },
+    {
+      "mode": "advanced",
+      "query": "docker compose healthcheck depends_on t677mg06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 611.0,
+        "tier1": 1539.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1663.0
+      },
+      "client_ms": 1664.32,
+      "response_time": 1.663,
+      "results": 4,
+      "request_id": "16e49a08-cf67-4bca-949b-bbccf8aad7cd"
+    },
+    {
+      "mode": "cache",
+      "query": "docker compose healthcheck depends_on t677mg06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.83,
+      "response_time": 0,
+      "results": 4,
+      "request_id": "a917adec-47ba-4c73-8518-b3c98a57c349"
+    },
+    {
+      "mode": "basic",
+      "query": "linux cgroup v2 memory limit t677mg07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 768.0,
+        "tier1": 3854.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 2014.0
+      },
+      "client_ms": 2015.57,
+      "response_time": 2.015,
+      "results": 5,
+      "request_id": "79efccb7-0440-4c7f-a6a4-85c8f6a8558c"
+    },
+    {
+      "mode": "advanced",
+      "query": "linux cgroup v2 memory limit t677mg07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 625.0,
+        "tier1": 5516.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 4517.0
+      },
+      "client_ms": 4517.92,
+      "response_time": 4.517,
+      "results": 5,
+      "request_id": "633c55ef-37d4-40a2-8439-a75744eb6897"
+    },
+    {
+      "mode": "cache",
+      "query": "linux cgroup v2 memory limit t677mg07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.85,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "a189c9f5-db0d-46e8-b2a8-490c85a58764"
+    },
+    {
+      "mode": "basic",
+      "query": "nginx reverse proxy websocket upgrade t677mg08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 663.0,
+        "tier1": 1187.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 962.0
+      },
+      "client_ms": 963.71,
+      "response_time": 0.963,
+      "results": 5,
+      "request_id": "f6c889cd-077a-42d5-ae84-8ccc34aae31b"
+    },
+    {
+      "mode": "advanced",
+      "query": "nginx reverse proxy websocket upgrade t677mg08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 654.0,
+        "tier1": 779.0,
+        "tier2": 44.0,
+        "rerank": 0.0,
+        "total": 937.0
+      },
+      "client_ms": 938.49,
+      "response_time": 0.938,
+      "results": 4,
+      "request_id": "c7e669e7-01d0-4297-a2d9-536595a995dc"
+    },
+    {
+      "mode": "cache",
+      "query": "nginx reverse proxy websocket upgrade t677mg08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.93,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "620d02d5-8ae0-480b-b6d9-c351433a82c7"
+    },
+    {
+      "mode": "basic",
+      "query": "typescript decorators metadata reflection t677mg09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 618.0,
+        "tier1": 1357.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1843.0
+      },
+      "client_ms": 1844.57,
+      "response_time": 1.844,
+      "results": 5,
+      "request_id": "7e8dd2c3-8242-4095-83c8-cd1d789bb09b"
+    },
+    {
+      "mode": "advanced",
+      "query": "typescript decorators metadata reflection t677mg09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 581.0,
+        "tier1": 1382.0,
+        "tier2": 1306.0,
+        "rerank": 0.0,
+        "total": 1802.0
+      },
+      "client_ms": 1803.85,
+      "response_time": 1.803,
+      "results": 2,
+      "request_id": "f2ccc5b5-da3d-41dc-9284-df5a8759f366"
+    },
+    {
+      "mode": "cache",
+      "query": "typescript decorators metadata reflection t677mg09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.85,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "7193760d-d660-43aa-81bc-9547acb3e109"
+    },
+    {
+      "mode": "basic",
+      "query": "rust async runtime tokio work stealing t677mg10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 639.0,
+        "tier1": 2035.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1300.0
+      },
+      "client_ms": 1300.98,
+      "response_time": 1.3,
+      "results": 5,
+      "request_id": "9260fe95-b647-42f3-bdc3-482c0a138c16"
+    },
+    {
+      "mode": "advanced",
+      "query": "rust async runtime tokio work stealing t677mg10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 592.0,
+        "tier1": 1110.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 958.0
+      },
+      "client_ms": 959.58,
+      "response_time": 0.959,
+      "results": 5,
+      "request_id": "aaacc1b3-addc-430a-afc7-44e436846b50"
+    },
+    {
+      "mode": "cache",
+      "query": "rust async runtime tokio work stealing t677mg10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.75,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "5270ff07-70aa-4c76-887d-a404d90f0ff3"
+    },
+    {
+      "mode": "basic",
+      "query": "sqlite wal mode concurrent readers t677mg11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 657.0,
+        "tier1": 1703.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1089.0
+      },
+      "client_ms": 1090.45,
+      "response_time": 1.09,
+      "results": 5,
+      "request_id": "51dcfd03-0565-4ae8-b3c2-83ccb07a3d26"
+    },
+    {
+      "mode": "advanced",
+      "query": "sqlite wal mode concurrent readers t677mg11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 748.0,
+        "tier1": 1601.0,
+        "tier2": 46.0,
+        "rerank": 1.0,
+        "total": 1176.0
+      },
+      "client_ms": 1177.23,
+      "response_time": 1.176,
+      "results": 5,
+      "request_id": "9803fb23-c63c-48f8-8ae3-e9b05aacbf54"
+    },
+    {
+      "mode": "cache",
+      "query": "sqlite wal mode concurrent readers t677mg11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.76,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "9037f068-73ae-400e-a32c-f1bde79a7ab2"
+    },
+    {
+      "mode": "basic",
+      "query": "prometheus histogram quantiles explained t677mg12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 664.0,
+        "tier1": 2116.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1060.0
+      },
+      "client_ms": 1060.98,
+      "response_time": 1.06,
+      "results": 5,
+      "request_id": "33e2a00e-bf7e-43a0-b90e-4756956c17dd"
+    },
+    {
+      "mode": "advanced",
+      "query": "prometheus histogram quantiles explained t677mg12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 624.0,
+        "tier1": 1414.0,
+        "tier2": 387.0,
+        "rerank": 0.0,
+        "total": 992.0
+      },
+      "client_ms": 993.87,
+      "response_time": 0.993,
+      "results": 5,
+      "request_id": "a6343584-c35f-467f-96ab-e3480d54afc4"
+    },
+    {
+      "mode": "cache",
+      "query": "prometheus histogram quantiles explained t677mg12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.79,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "548ccf05-a126-42fa-86ee-d3c57c0583ce"
+    },
+    {
+      "mode": "basic",
+      "query": "kafka exactly once semantics transactions t677mg13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 671.0,
+        "tier1": 2663.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1383.0
+      },
+      "client_ms": 1383.84,
+      "response_time": 1.383,
+      "results": 5,
+      "request_id": "dce1a4ba-96b7-4096-abd6-905886e265e2"
+    },
+    {
+      "mode": "advanced",
+      "query": "kafka exactly once semantics transactions t677mg13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 657.0,
+        "tier1": 1953.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1302.0
+      },
+      "client_ms": 1302.98,
+      "response_time": 1.302,
+      "results": 5,
+      "request_id": "46d80fa4-1630-42bd-b937-67cd631e677c"
+    },
+    {
+      "mode": "cache",
+      "query": "kafka exactly once semantics transactions t677mg13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.84,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "a3ade921-7008-4b6a-92dd-348030a32807"
+    },
+    {
+      "mode": "basic",
+      "query": "http2 server push deprecated why t677mg14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 630.0,
+        "tier1": 1436.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1016.0
+      },
+      "client_ms": 1017.39,
+      "response_time": 1.017,
+      "results": 5,
+      "request_id": "37aaa78e-7729-4e8c-a01a-e422ef0e1165"
+    },
+    {
+      "mode": "advanced",
+      "query": "http2 server push deprecated why t677mg14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 600.0,
+        "tier1": 8812.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 4478.0
+      },
+      "client_ms": 4479.54,
+      "response_time": 4.479,
+      "results": 5,
+      "request_id": "cffbc33a-5b78-4731-8023-b0475c1c2970"
+    },
+    {
+      "mode": "cache",
+      "query": "http2 server push deprecated why t677mg14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.93,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "762ebc81-0d0c-47a6-93ef-43c93f1dae82"
+    },
+    {
+      "mode": "basic",
+      "query": "websocket load balancing haproxy t677mg15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 707.0,
+        "tier1": 4474.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 2257.0
+      },
+      "client_ms": 2258.02,
+      "response_time": 2.257,
+      "results": 4,
+      "request_id": "e1f954b8-b0eb-4191-adc6-b374f7a9751e"
+    },
+    {
+      "mode": "advanced",
+      "query": "websocket load balancing haproxy t677mg15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 591.0,
+        "tier1": 2302.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1666.0
+      },
+      "client_ms": 1667.56,
+      "response_time": 1.667,
+      "results": 4,
+      "request_id": "bcf1bc80-ab5b-470a-82df-697cec4155f3"
+    },
+    {
+      "mode": "cache",
+      "query": "websocket load balancing haproxy t677mg15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.76,
+      "response_time": 0,
+      "results": 4,
+      "request_id": "c17b9014-a920-4521-8650-baac998f4678"
+    },
+    {
+      "mode": "basic",
+      "query": "react server components streaming t677mg16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 692.0,
+        "tier1": 2126.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1272.0
+      },
+      "client_ms": 1273.14,
+      "response_time": 1.272,
+      "results": 5,
+      "request_id": "23c9ef07-5b8c-41d5-b13a-647ee1c5517a"
+    },
+    {
+      "mode": "advanced",
+      "query": "react server components streaming t677mg16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 702.0,
+        "tier1": 1053.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1055.0
+      },
+      "client_ms": 1056.91,
+      "response_time": 1.056,
+      "results": 5,
+      "request_id": "74943d7d-c0d6-41b4-9317-e2930a6e7cd4"
+    },
+    {
+      "mode": "cache",
+      "query": "react server components streaming t677mg16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.87,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "c8d2ff10-bd95-4a7b-aa80-57e607c32378"
+    },
+    {
+      "mode": "basic",
+      "query": "css container queries support t677mg17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 624.0,
+        "tier1": 3930.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1453.0
+      },
+      "client_ms": 1453.9,
+      "response_time": 1.453,
+      "results": 5,
+      "request_id": "525d5632-3dee-4f2a-a585-29de1487e2da"
+    },
+    {
+      "mode": "advanced",
+      "query": "css container queries support t677mg17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 596.0,
+        "tier1": 2278.0,
+        "tier2": 597.0,
+        "rerank": 1.0,
+        "total": 1208.0
+      },
+      "client_ms": 1209.48,
+      "response_time": 1.209,
+      "results": 5,
+      "request_id": "a3655538-85a2-48d0-9941-f6698cbbcda8"
+    },
+    {
+      "mode": "cache",
+      "query": "css container queries support t677mg17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 1.26,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "6478cb9f-c9ca-4b22-9c74-f0ab2f684a52"
+    },
+    {
+      "mode": "basic",
+      "query": "webassembly component model status t677mg18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 682.0,
+        "tier1": 2102.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1319.0
+      },
+      "client_ms": 1320.46,
+      "response_time": 1.32,
+      "results": 5,
+      "request_id": "49fea54f-7ea1-4b43-9bc4-a826c39c43dc"
+    },
+    {
+      "mode": "advanced",
+      "query": "webassembly component model status t677mg18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 659.0,
+        "tier1": 1525.0,
+        "tier2": 344.0,
+        "rerank": 1.0,
+        "total": 1430.0
+      },
+      "client_ms": 1431.14,
+      "response_time": 1.43,
+      "results": 5,
+      "request_id": "0df87825-e8df-4885-aee2-56edfa27fb89"
+    },
+    {
+      "mode": "cache",
+      "query": "webassembly component model status t677mg18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.8,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "49ba621a-42af-44d6-ba57-fa31e24beebe"
+    },
+    {
+      "mode": "basic",
+      "query": "open telemetry collector pipeline t677mg19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 580.0,
+        "tier1": 2742.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1247.0
+      },
+      "client_ms": 1248.37,
+      "response_time": 1.248,
+      "results": 5,
+      "request_id": "93af045e-90a8-4cd4-95f7-33bc2ac27dd9"
+    },
+    {
+      "mode": "advanced",
+      "query": "open telemetry collector pipeline t677mg19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 561.0,
+        "tier1": 1679.0,
+        "tier2": 166.0,
+        "rerank": 0.0,
+        "total": 1050.0
+      },
+      "client_ms": 1051.22,
+      "response_time": 1.05,
+      "results": 5,
+      "request_id": "25ad7510-ef0c-4ee0-a44a-7c65844b7fd7"
+    },
+    {
+      "mode": "cache",
+      "query": "open telemetry collector pipeline t677mg19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.79,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "29239359-727e-46ce-8dd8-78020b2bdaf5"
+    },
+    {
+      "mode": "basic",
+      "query": "terraform state locking dynamodb t677mg20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 644.0,
+        "tier1": 2288.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1424.0
+      },
+      "client_ms": 1425.33,
+      "response_time": 1.425,
+      "results": 5,
+      "request_id": "81aaf710-1995-4223-81d1-a908f506665b"
+    },
+    {
+      "mode": "advanced",
+      "query": "terraform state locking dynamodb t677mg20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 645.0,
+        "tier1": 878.0,
+        "tier2": 3824.0,
+        "rerank": 1.0,
+        "total": 4203.0
+      },
+      "client_ms": 4204.11,
+      "response_time": 4.203,
+      "results": 5,
+      "request_id": "e4679ba1-71e8-4dff-ad8d-4cab777db1f3"
+    },
+    {
+      "mode": "cache",
+      "query": "terraform state locking dynamodb t677mg20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.92,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "f6da38bd-823f-403e-8f50-9cc780fe40ef"
+    },
+    {
+      "mode": "basic",
+      "query": "aws lambda cold start mitigation t677mg21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 691.0,
+        "tier1": 2615.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1423.0
+      },
+      "client_ms": 1424.21,
+      "response_time": 1.423,
+      "results": 5,
+      "request_id": "f9bc7d05-d684-4235-9778-379c006876af"
+    },
+    {
+      "mode": "advanced",
+      "query": "aws lambda cold start mitigation t677mg21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 669.0,
+        "tier1": 826.0,
+        "tier2": 323.0,
+        "rerank": 0.0,
+        "total": 996.0
+      },
+      "client_ms": 997.51,
+      "response_time": 0.997,
+      "results": 5,
+      "request_id": "accb63bd-a43f-467b-b8d2-46d66a799f2d"
+    },
+    {
+      "mode": "cache",
+      "query": "aws lambda cold start mitigation t677mg21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.92,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "38b8464b-c4da-4637-989c-8be7ee5312db"
+    },
+    {
+      "mode": "basic",
+      "query": "cloudflare workers durable objects t677mg22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 622.0,
+        "tier1": 2842.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1422.0
+      },
+      "client_ms": 1423.3,
+      "response_time": 1.422,
+      "results": 5,
+      "request_id": "c4428675-3233-42de-9483-d8c7a35b3c97"
+    },
+    {
+      "mode": "advanced",
+      "query": "cloudflare workers durable objects t677mg22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 593.0,
+        "tier1": 2201.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1139.0
+      },
+      "client_ms": 1139.94,
+      "response_time": 1.139,
+      "results": 5,
+      "request_id": "94b23dbb-f1b2-4b03-9c85-22967d88783d"
+    },
+    {
+      "mode": "cache",
+      "query": "cloudflare workers durable objects t677mg22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.7,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "978f4d89-102b-4926-b502-67b16c5a3016"
+    },
+    {
+      "mode": "basic",
+      "query": "grpc deadline propagation t677mg23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 643.0,
+        "tier1": 2275.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1056.0
+      },
+      "client_ms": 1056.99,
+      "response_time": 1.056,
+      "results": 5,
+      "request_id": "71182822-97a8-49ff-acea-9a6510fd7ee8"
+    },
+    {
+      "mode": "advanced",
+      "query": "grpc deadline propagation t677mg23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 630.0,
+        "tier1": 1361.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1138.0
+      },
+      "client_ms": 1139.79,
+      "response_time": 1.139,
+      "results": 5,
+      "request_id": "d19a7b71-3f8c-4587-9972-d48b05becc3d"
+    },
+    {
+      "mode": "cache",
+      "query": "grpc deadline propagation t677mg23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.86,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "e9f18a4c-7277-4d49-80c6-137febefe285"
+    },
+    {
+      "mode": "basic",
+      "query": "protobuf field presence optional t677mg24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 623.0,
+        "tier1": 1893.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1032.0
+      },
+      "client_ms": 1033.51,
+      "response_time": 1.033,
+      "results": 5,
+      "request_id": "4a722583-f9ac-4c73-8e1e-f03bb5eb5b5e"
+    },
+    {
+      "mode": "advanced",
+      "query": "protobuf field presence optional t677mg24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 760.0,
+        "tier1": 1144.0,
+        "tier2": 46.0,
+        "rerank": 0.0,
+        "total": 1202.0
+      },
+      "client_ms": 1203.61,
+      "response_time": 1.203,
+      "results": 5,
+      "request_id": "fd3a2fe9-3bef-4de5-9d60-6eeba663128e"
+    },
+    {
+      "mode": "cache",
+      "query": "protobuf field presence optional t677mg24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.95,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "01da2ab9-f769-4737-9703-22f4187ac634"
+    },
+    {
+      "mode": "basic",
+      "query": "sql injection prepared statements t677mg25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 710.0,
+        "tier1": 2760.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1314.0
+      },
+      "client_ms": 1314.78,
+      "response_time": 1.314,
+      "results": 5,
+      "request_id": "f422f6c8-0597-4e93-b42c-f96761cf91ad"
+    },
+    {
+      "mode": "advanced",
+      "query": "sql injection prepared statements t677mg25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 642.0,
+        "tier1": 761.0,
+        "tier2": 1261.0,
+        "rerank": 0.0,
+        "total": 1848.0
+      },
+      "client_ms": 1849.62,
+      "response_time": 1.849,
+      "results": 4,
+      "request_id": "c4058b0a-fe2c-48f4-b682-90b304ce0f9d"
+    },
+    {
+      "mode": "cache",
+      "query": "sql injection prepared statements t677mg25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.94,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "576178ff-72ec-4141-81c7-9e5af4645644"
+    },
+    {
+      "mode": "basic",
+      "query": "oauth2 pkce flow mobile apps t677mg26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 622.0,
+        "tier1": 3426.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1899.0
+      },
+      "client_ms": 1899.87,
+      "response_time": 1.899,
+      "results": 5,
+      "request_id": "b971097c-f429-4b94-a050-73eb593cb7c7"
+    },
+    {
+      "mode": "advanced",
+      "query": "oauth2 pkce flow mobile apps t677mg26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 597.0,
+        "tier1": 2307.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1107.0
+      },
+      "client_ms": 1108.83,
+      "response_time": 1.108,
+      "results": 5,
+      "request_id": "67c2fec6-e0b6-4ce9-8189-8d4d01c9bdf9"
+    },
+    {
+      "mode": "cache",
+      "query": "oauth2 pkce flow mobile apps t677mg26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.85,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "eee4c12c-a993-4e6a-b026-487850768ef6"
+    },
+    {
+      "mode": "basic",
+      "query": "jwt rotation refresh tokens t677mg27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 630.0,
+        "tier1": 5717.0,
+        "tier2": 0.0,
+        "rerank": 1501.0,
+        "total": 3367.0
+      },
+      "client_ms": 3368.24,
+      "response_time": 3.367,
+      "results": 3,
+      "request_id": "89700991-fe4b-4517-8eee-f1c958e9494a"
+    },
+    {
+      "mode": "advanced",
+      "query": "jwt rotation refresh tokens t677mg27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 656.0,
+        "tier1": 4634.0,
+        "tier2": 4256.0,
+        "rerank": 0.0,
+        "total": 4536.0
+      },
+      "client_ms": 4537.08,
+      "response_time": 4.536,
+      "results": 3,
+      "request_id": "398659d1-bec7-4f86-9fb8-a9956af9bbe7"
+    },
+    {
+      "mode": "cache",
+      "query": "jwt rotation refresh tokens t677mg27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.77,
+      "response_time": 0,
+      "results": 3,
+      "request_id": "34c8e2a6-8500-4f8c-85c2-d3a1fb85d6eb"
+    },
+    {
+      "mode": "basic",
+      "query": "bash process substitution examples t677mg28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 707.0,
+        "tier1": 5156.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1857.0
+      },
+      "client_ms": 1858.52,
+      "response_time": 1.858,
+      "results": 5,
+      "request_id": "a8ef870f-70b4-4f68-915b-b47401f07f9a"
+    },
+    {
+      "mode": "advanced",
+      "query": "bash process substitution examples t677mg28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 600.0,
+        "tier1": 3262.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1645.0
+      },
+      "client_ms": 1646.2,
+      "response_time": 1.645,
+      "results": 5,
+      "request_id": "dfdf4066-b18b-4001-8757-a4a574c31e44"
+    },
+    {
+      "mode": "cache",
+      "query": "bash process substitution examples t677mg28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.75,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "d4a6f115-ae8d-4c61-91d6-db3adfa3c23b"
+    },
+    {
+      "mode": "basic",
+      "query": "git rebase interactive squash t677mg29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 623.0,
+        "tier1": 1384.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 982.0
+      },
+      "client_ms": 983.5,
+      "response_time": 0.983,
+      "results": 5,
+      "request_id": "d584f56e-2117-42db-8841-1796b9557b52"
+    },
+    {
+      "mode": "advanced",
+      "query": "git rebase interactive squash t677mg29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 673.0,
+        "tier1": 920.0,
+        "tier2": 0.0,
+        "rerank": 1.0,
+        "total": 1104.0
+      },
+      "client_ms": 1105.09,
+      "response_time": 1.104,
+      "results": 5,
+      "request_id": "3ea224d8-91c9-4b9d-8090-8d51b055a1a0"
+    },
+    {
+      "mode": "cache",
+      "query": "git rebase interactive squash t677mg29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.79,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "7c5be5fb-c7e5-402d-9527-726ad298be8f"
+    },
+    {
+      "mode": "basic",
+      "query": "ffmpeg hardware acceleration nvenc t677mg30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 695.0,
+        "tier1": 4008.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1995.0
+      },
+      "client_ms": 1995.89,
+      "response_time": 1.995,
+      "results": 5,
+      "request_id": "b47722e9-c473-4783-ba00-5b2a38f98fad"
+    },
+    {
+      "mode": "advanced",
+      "query": "ffmpeg hardware acceleration nvenc t677mg30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 646.0,
+        "tier1": 3425.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1801.0
+      },
+      "client_ms": 1801.97,
+      "response_time": 1.801,
+      "results": 5,
+      "request_id": "8a444fb8-b6ae-449f-934a-1cd390b0ee2a"
+    },
+    {
+      "mode": "cache",
+      "query": "ffmpeg hardware acceleration nvenc t677mg30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.89,
+      "response_time": 0,
+      "results": 5,
+      "request_id": "cacb6c02-38f9-464d-a990-9ea04093759a"
+    }
+  ]
+}

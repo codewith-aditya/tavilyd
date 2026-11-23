@@ -1,0 +1,264 @@
+{
+  "label": "proxy-direct_first",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "7fzv0f",
+  "generated_at": "2026-11-22T08:18:31Z",
+  "gpu": {},
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices 7fzv0f01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1361.0,
+        "tier1": 2539.0,
+        "tier2": 0.0,
+        "rerank": 613.0,
+        "total": 2540.0
+      },
+      "client_ms": 2549.96,
+      "response_time": 2.541,
+      "results": 2,
+      "request_id": "de21a512-61df-443c-9de7-49a56f59042d"
+    },
+    {
+      "mode": "advanced",
+      "query": "golang context cancellation best practices 7fzv0f01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1505.0,
+        "tier1": 1620.0,
+        "tier2": 193.0,
+        "rerank": 1430.0,
+        "total": 3622.0
+      },
+      "client_ms": 3623.85,
+      "response_time": 3.623,
+      "results": 4,
+      "request_id": "a12d2f85-54db-4294-93c0-31ae8954b8df"
+    },
+    {
+      "mode": "cache",
+      "query": "golang context cancellation best practices 7fzv0f01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.86,
+      "response_time": 0,
+      "results": 2,
+      "request_id": "0c63aaba-c27e-468e-9759-507ca7491448"
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather 7fzv0f02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1267.0,
+        "tier1": 9.0,
+        "tier2": 0.0,
+        "rerank": 334.0,
+        "total": 1607.0
+      },
+      "client_ms": 1608.19,
+      "response_time": 1.607,
+      "results": 3,
+      "request_id": "831d5330-d70a-4a35-a3b6-ecf07a742e1f"
+    },
+    {
+      "mode": "advanced",
+      "query": "python asyncio taskgroup vs gather 7fzv0f02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 2058.0,
+        "tier1": 13.0,
+        "tier2": 0.0,
+        "rerank": 872.0,
+        "total": 2936.0
+      },
+      "client_ms": 2937.05,
+      "response_time": 2.936,
+      "results": 2,
+      "request_id": "2873f021-bfd8-4ab9-be06-77b07dce6b20"
+    },
+    {
+      "mode": "cache",
+      "query": "python asyncio taskgroup vs gather 7fzv0f02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.74,
+      "response_time": 0,
+      "results": 3,
+      "request_id": "caef67bb-5221-47c0-8ce6-d464779d890b"
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example 7fzv0f03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1479.0,
+        "tier1": 7871.0,
+        "tier2": 0.0,
+        "rerank": 379.0,
+        "total": 2889.0
+      },
+      "client_ms": 2890.74,
+      "response_time": 2.89,
+      "results": 4,
+      "request_id": "fbd4fa20-1e31-4f6e-98bc-af52d74de785"
+    },
+    {
+      "mode": "advanced",
+      "query": "kubernetes pod disruption budget example 7fzv0f03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1688.0,
+        "tier1": 839.0,
+        "tier2": 11385.0,
+        "rerank": 874.0,
+        "total": 5301.0
+      },
+      "client_ms": 5302.7,
+      "response_time": 5.302,
+      "results": 5,
+      "request_id": "2676fd30-2628-4b71-8f50-e19ff176a48b"
+    },
+    {
+      "mode": "cache",
+      "query": "kubernetes pod disruption budget example 7fzv0f03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.91,
+      "response_time": 0,
+      "results": 4,
+      "request_id": "1c23f865-b802-4447-a297-2871356fc4b7"
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis 7fzv0f04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1600.0,
+        "tier1": 7.0,
+        "tier2": 0.0,
+        "rerank": 400.0,
+        "total": 2005.0
+      },
+      "client_ms": 2006.32,
+      "response_time": 2.006,
+      "results": 1,
+      "request_id": "750d313a-308b-4457-b99e-30c3e4b0acbd"
+    },
+    {
+      "mode": "advanced",
+      "query": "postgres index bloat diagnosis 7fzv0f04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 2410.0,
+        "tier1": 2297.0,
+        "tier2": 1462.0,
+        "rerank": 1474.0,
+        "total": 5156.0
+      },
+      "client_ms": 5157.59,
+      "response_time": 5.157,
+      "results": 1,
+      "request_id": "ea32bc1c-e84e-4ef8-bd14-b63084f1ad81"
+    },
+    {
+      "mode": "cache",
+      "query": "postgres index bloat diagnosis 7fzv0f04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.73,
+      "response_time": 0,
+      "results": 1,
+      "request_id": "3baff454-af47-41b4-8d0d-30055e5fd53e"
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs 7fzv0f05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1970.0,
+        "tier1": 15.0,
+        "tier2": 0.0,
+        "rerank": 370.0,
+        "total": 2346.0
+      },
+      "client_ms": 2347.24,
+      "response_time": 2.346,
+      "results": 2,
+      "request_id": "d2f6421a-21c2-4cd4-9925-72749289e3b0"
+    },
+    {
+      "mode": "advanced",
+      "query": "redis persistence aof vs rdb tradeoffs 7fzv0f05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1669.0,
+        "tier1": 5328.0,
+        "tier2": 3515.0,
+        "rerank": 681.0,
+        "total": 4113.0
+      },
+      "client_ms": 4114.36,
+      "response_time": 4.114,
+      "results": 3,
+      "request_id": "2ae0e33c-14b8-4e66-9756-dce7cadef005"
+    },
+    {
+      "mode": "cache",
+      "query": "redis persistence aof vs rdb tradeoffs 7fzv0f05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 0.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 0.0
+      },
+      "client_ms": 0.85,
+      "response_time": 0,
+      "results": 2,
+      "request_id": "663faf30-4e83-44e1-9f63-07fa322577fd"
+    }
+  ]
+}

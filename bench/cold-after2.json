@@ -1,0 +1,519 @@
+{
+  "label": "cold-after2",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "vxrhy2",
+  "generated_at": "2026-11-22T10:46:32Z",
+  "gpu": {},
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices vxrhy201",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 2460.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 2461.0
+      },
+      "client_ms": 2472.25,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather vxrhy202",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 1245.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1245.0
+      },
+      "client_ms": 1246.73,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example vxrhy203",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 73.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 73.0
+      },
+      "client_ms": 74.82,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis vxrhy204",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 68.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 68.0
+      },
+      "client_ms": 69.47,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs vxrhy205",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 32.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 32.0
+      },
+      "client_ms": 33.47,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "docker compose healthcheck depends_on vxrhy206",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 47.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 47.0
+      },
+      "client_ms": 48.73,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "linux cgroup v2 memory limit vxrhy207",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 65.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 65.0
+      },
+      "client_ms": 66.73,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "nginx reverse proxy websocket upgrade vxrhy208",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 37.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 37.0
+      },
+      "client_ms": 38.5,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "typescript decorators metadata reflection vxrhy209",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 52.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 52.0
+      },
+      "client_ms": 53.49,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "rust async runtime tokio work stealing vxrhy210",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 67.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 67.0
+      },
+      "client_ms": 68.51,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "sqlite wal mode concurrent readers vxrhy211",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 28.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 28.0
+      },
+      "client_ms": 29.78,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "prometheus histogram quantiles explained vxrhy212",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 64.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 64.0
+      },
+      "client_ms": 65.68,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "kafka exactly once semantics transactions vxrhy213",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 29.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 29.0
+      },
+      "client_ms": 30.45,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "http2 server push deprecated why vxrhy214",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 71.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 71.0
+      },
+      "client_ms": 72.52,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "websocket load balancing haproxy vxrhy215",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 54.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 54.0
+      },
+      "client_ms": 55.41,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "react server components streaming vxrhy216",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 52.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 52.0
+      },
+      "client_ms": 53.61,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "css container queries support vxrhy217",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 61.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 61.0
+      },
+      "client_ms": 62.78,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "webassembly component model status vxrhy218",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 48.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 48.0
+      },
+      "client_ms": 49.79,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "open telemetry collector pipeline vxrhy219",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 39.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 39.0
+      },
+      "client_ms": 40.59,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "terraform state locking dynamodb vxrhy220",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 48.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 48.0
+      },
+      "client_ms": 49.61,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "aws lambda cold start mitigation vxrhy221",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 28.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 28.0
+      },
+      "client_ms": 29.53,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "cloudflare workers durable objects vxrhy222",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 53.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 53.0
+      },
+      "client_ms": 54.48,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "grpc deadline propagation vxrhy223",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 38.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 38.0
+      },
+      "client_ms": 39.55,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "protobuf field presence optional vxrhy224",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 42.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 42.0
+      },
+      "client_ms": 43.94,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "sql injection prepared statements vxrhy225",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 36.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 36.0
+      },
+      "client_ms": 37.8,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "oauth2 pkce flow mobile apps vxrhy226",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 30.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 30.0
+      },
+      "client_ms": 31.71,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "jwt rotation refresh tokens vxrhy227",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 66.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 66.0
+      },
+      "client_ms": 67.75,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "bash process substitution examples vxrhy228",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 74.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 74.0
+      },
+      "client_ms": 75.98,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "git rebase interactive squash vxrhy229",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 39.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 39.0
+      },
+      "client_ms": 40.66,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    },
+    {
+      "mode": "basic",
+      "query": "ffmpeg hardware acceleration nvenc vxrhy230",
+      "status": 502,
+      "timing": {
+        "cache": 0.0,
+        "search": 36.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 36.0
+      },
+      "client_ms": 37.45,
+      "response_time": null,
+      "results": 0,
+      "request_id": null
+    }
+  ]
+}

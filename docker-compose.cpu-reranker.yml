@@ -1,0 +1,42 @@
+# Opt-in CPU reranker (no GPU required).
+#
+#   docker compose -f docker-compose.yml -f docker-compose.cpu-reranker.yml up -d
+#
+# Uses Hugging Face TEI's CPU image. Two caveats, both measured on a 20-core box:
+#   * TEI 1.2.1's CPU backend mis-batches attention ("non-contiguous lhs"), so
+#     both the client and the server must keep batches at one text;
+#   * bge-reranker-v2-m3 costs roughly 0.6-1.0 s per 350-token chunk there,
+#     which exceeds the request budget for five pages, so the service will
+#     frequently fall back to BM25. Useful for correctness testing, not for
+#     production latency.
+services:
+  reranker:
+    build: !reset null
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.2.1
+    entrypoint: ["text-embeddings-router"]
+    command:
+      - --model-id
+      - BAAI/bge-reranker-v2-m3
+      - --port
+      - "8080"
+      - --max-batch-requests
+      - "1"
+      - --max-client-batch-size
+      - "1"
+      - --json-output
+    environment:
+      HF_MODEL_ID: BAAI/bge-reranker-v2-m3
+    devices: !reset []
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+      start_period: 300s
+
+  api:
+    environment:
+      TEI_URL: "http://reranker:8080"
+      TEI_MAX_BATCH: "1"
+      TEI_PARALLELISM: "8"
+      TEI_TIMEOUT: "2500ms"

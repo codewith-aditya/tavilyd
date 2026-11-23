@@ -1,0 +1,246 @@
+name: tavilyd
+
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "50m"
+    max-file: "3"
+
+services:
+  searxng:
+    image: searxng/searxng:2026.11.21-c6ee3e9fd
+    container_name: tavilyd-searxng
+    restart: unless-stopped
+    entrypoint: ["/etc/searxng/entrypoint.sh"]
+    environment:
+      SEARXNG_BASE_URL: "http://searxng:8080/"
+      SEARXNG_SECRET: "${SEARXNG_SECRET:?set SEARXNG_SECRET in .env (openssl rand -hex 32)}"
+      PROXY_SEARXNG: "${PROXY_SEARXNG:-off}"
+      PROXY_SEARXNG_SCHEME: "${PROXY_SEARXNG_SCHEME:-http}"
+      PROXY_ENDPOINT: "${PROXY_ENDPOINT:-}"
+    volumes:
+      - ./searxng:/etc/searxng:ro
+      - searxng-cache:/var/cache/searxng
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+    mem_limit: 2g
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  searxng-proxy:
+    image: searxng/searxng:2026.11.21-c6ee3e9fd
+    container_name: tavilyd-searxng-proxy
+    restart: unless-stopped
+    entrypoint: ["/etc/searxng/entrypoint.sh"]
+    environment:
+      SEARXNG_BASE_URL: "http://searxng-proxy:8080/"
+      SEARXNG_SECRET: "${SEARXNG_SECRET:?set SEARXNG_SECRET in .env (openssl rand -hex 32)}"
+      PROXY_SEARXNG: "on"
+      PROXY_SEARXNG_SCHEME: "${PROXY_SEARXNG_SCHEME:-http}"
+      PROXY_ENDPOINT: "${PROXY_ENDPOINT:-}"
+    volumes:
+      - ./searxng:/etc/searxng:ro
+      - searxng-proxy-cache:/var/cache/searxng
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+    mem_limit: 2g
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  redis:
+    image: redis:7.2.17-alpine
+    container_name: tavilyd-redis
+    restart: unless-stopped
+    command:
+      - redis-server
+      - --maxmemory
+      - 4gb
+      - --maxmemory-policy
+      - allkeys-lru
+      - --appendonly
+      - "yes"
+      - --appendfsync
+      - everysec
+    volumes:
+      - redis-data:/data
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+    mem_limit: 5g
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  proxyrelay:
+    build:
+      context: .
+      dockerfile: Dockerfile.relay
+    image: tavilyd-relay:${TAVILYD_VERSION:-1.0.0}
+    container_name: tavilyd-proxyrelay
+    restart: unless-stopped
+    environment:
+      PROXY_MODE: ${PROXY_MODE:-off}
+      PROXY_POLICY: ${PROXY_POLICY:-direct_first}
+      PROXY_ENDPOINT: ${PROXY_ENDPOINT:-}
+      PROXY_TLS_INSECURE: ${PROXY_TLS_INSECURE:-false}
+      PROXY_MAX_CONNS_PER_PROXY: ${PROXY_MAX_CONNS_PER_PROXY:-64}
+    networks:
+      - backend
+    mem_limit: 256m
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  browser:
+    image: chromedp/headless-shell:159.0.8154.13
+    container_name: tavilyd-browser
+    restart: unless-stopped
+    # headless-shell's entrypoint already runs Chromium on 9223 with a socat
+    # forwarder on 9222; do not add --remote-debugging-* again or the forwarder
+    # cannot bind.
+    command:
+      - --no-sandbox
+      - --disable-gpu
+      - --disable-dev-shm-usage
+      - --hide-scrollbars
+      - --mute-audio
+      - --no-first-run
+      - --no-default-browser-check
+      - --disable-background-networking
+      - --disable-background-timer-throttling
+      - --disable-backgrounding-occluded-windows
+      - --disable-renderer-backgrounding
+      - --disable-features=Translate,BackForwardCache
+      - --proxy-server=http://proxyrelay:8888
+    depends_on:
+      proxyrelay:
+        condition: service_healthy
+    shm_size: 4gb
+    mem_limit: 6g
+    pids_limit: 4096
+    networks:
+      - backend
+    healthcheck:
+      # No curl/wget in this image: speak HTTP over bash's /dev/tcp.
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/9222 || exit 1; printf 'GET /json/version HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3; timeout 3 grep -q webSocketDebuggerUrl <&3"]
+      interval: 15s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  reranker:
+    build:
+      context: ./reranker-gpu
+    image: tavilyd-reranker:${TAVILYD_VERSION:-1.0.0}
+    container_name: tavilyd-reranker
+    restart: unless-stopped
+    environment:
+      MODEL_ID: ${RERANKER_MODEL:-BAAI/bge-reranker-v2-m3}
+      RERANK_DTYPE: ${RERANK_DTYPE:-auto}
+      RERANK_BATCH_SIZE: "${RERANK_BATCH_SIZE:-16}"
+      RERANK_MAX_LENGTH: "512"
+      HF_HOME: /data
+      HF_TOKEN: "${HF_TOKEN:-}"
+    volumes:
+      - hf-cache:/data
+    networks:
+      - backend
+    # CDI device request: works with nvidia-container-toolkit + a generated
+    # /etc/cdi/nvidia.yaml spec. `deploy.resources.reservations` would need the
+    # nvidia runtime registered in daemon.json, which this host does not have.
+    devices:
+      - "nvidia.com/gpu=all"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys,urllib.request; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:80/health', timeout=4).status == 200 else 1)"]
+      interval: 20s
+      timeout: 8s
+      retries: 10
+      start_period: 300s
+    mem_limit: 12g
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VERSION: "${TAVILYD_VERSION:-1.0.0}"
+    image: tavilyd:${TAVILYD_VERSION:-1.0.0}
+    container_name: tavilyd-api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Service discovery overrides whatever is in .env.
+      HTTP_ADDR: ":8080"
+      SEARXNG_URL: "http://searxng:8080"
+      SEARXNG_PROXY_URL: "http://searxng-proxy:8080"
+      REDIS_URL: "redis://redis:6379/0"
+      BROWSER_URL: "ws://browser:9222"
+      TEI_URL: "http://reranker:80"
+      TEI_MAX_BATCH: "${TEI_MAX_BATCH:-16}"
+      TEI_PARALLELISM: "${TEI_PARALLELISM:-2}"
+      TEI_TIMEOUT: "${TEI_TIMEOUT:-1500ms}"
+    ports:
+      - "${PUBLISH_PORT:-8080}:8080"
+    depends_on:
+      searxng:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      browser:
+        condition: service_healthy
+      reranker:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "/server", "-healthcheck"]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+    mem_limit: 4g
+    logging: *default-logging
+
+networks:
+  backend:
+    driver: bridge
+    # Not "internal: true": SearXNG and the api need egress to reach the web.
+
+volumes:
+  redis-data:
+  searxng-cache:
+  searxng-proxy-cache:
+  hf-cache:

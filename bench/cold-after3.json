@@ -1,0 +1,519 @@
+{
+  "label": "cold-after3",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "bsxlvr",
+  "generated_at": "2026-11-22T10:49:59Z",
+  "gpu": {},
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices bsxlvr01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 779.0,
+        "tier1": 11.0,
+        "tier2": 0.0,
+        "rerank": 430.0,
+        "total": 1215.0
+      },
+      "client_ms": 1224.71,
+      "response_time": 1.216,
+      "results": 2,
+      "request_id": "cd037cbc-727c-4397-8127-02e14466d5a7"
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather bsxlvr02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 726.0,
+        "tier1": 1372.0,
+        "tier2": 0.0,
+        "rerank": 488.0,
+        "total": 1750.0
+      },
+      "client_ms": 1751.34,
+      "response_time": 1.75,
+      "results": 4,
+      "request_id": "62cad474-5d52-4aec-a785-557b849c95a1"
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example bsxlvr03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 741.0,
+        "tier1": 1646.0,
+        "tier2": 0.0,
+        "rerank": 436.0,
+        "total": 1847.0
+      },
+      "client_ms": 1848.5,
+      "response_time": 1.848,
+      "results": 3,
+      "request_id": "23eabeb5-8a80-4b75-bc31-8791a0387e16"
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis bsxlvr04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 650.0,
+        "tier1": 31.0,
+        "tier2": 0.0,
+        "rerank": 334.0,
+        "total": 995.0
+      },
+      "client_ms": 996.52,
+      "response_time": 0.996,
+      "results": 1,
+      "request_id": "d1b304c0-96e8-4248-9ae1-cedb1da1d0be"
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs bsxlvr05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 685.0,
+        "tier1": 8.0,
+        "tier2": 0.0,
+        "rerank": 316.0,
+        "total": 1008.0
+      },
+      "client_ms": 1009.19,
+      "response_time": 1.008,
+      "results": 3,
+      "request_id": "e23dc7f6-4a0a-4fc2-bb74-3187eefb5001"
+    },
+    {
+      "mode": "basic",
+      "query": "docker compose healthcheck depends_on bsxlvr06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 681.0,
+        "tier1": 4569.0,
+        "tier2": 0.0,
+        "rerank": 306.0,
+        "total": 2161.0
+      },
+      "client_ms": 2162.1,
+      "response_time": 2.161,
+      "results": 3,
+      "request_id": "50b45c42-7652-41fb-9c13-1cb73909af70"
+    },
+    {
+      "mode": "basic",
+      "query": "linux cgroup v2 memory limit bsxlvr07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 688.0,
+        "tier1": 2822.0,
+        "tier2": 0.0,
+        "rerank": 293.0,
+        "total": 1673.0
+      },
+      "client_ms": 1673.89,
+      "response_time": 1.673,
+      "results": 1,
+      "request_id": "81c1f4c0-3064-4f95-b5b9-ae9482c0369e"
+    },
+    {
+      "mode": "basic",
+      "query": "nginx reverse proxy websocket upgrade bsxlvr08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 690.0,
+        "tier1": 632.0,
+        "tier2": 0.0,
+        "rerank": 363.0,
+        "total": 1284.0
+      },
+      "client_ms": 1285.37,
+      "response_time": 1.285,
+      "results": 5,
+      "request_id": "d87fc64d-78dc-4fda-a859-b5c47bdcea4f"
+    },
+    {
+      "mode": "basic",
+      "query": "typescript decorators metadata reflection bsxlvr09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 668.0,
+        "tier1": 2611.0,
+        "tier2": 0.0,
+        "rerank": 352.0,
+        "total": 1916.0
+      },
+      "client_ms": 1917.84,
+      "response_time": 1.917,
+      "results": 1,
+      "request_id": "e3b4c261-3faa-4ee3-ba1f-9518870570c6"
+    },
+    {
+      "mode": "basic",
+      "query": "rust async runtime tokio work stealing bsxlvr10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 758.0,
+        "tier1": 1772.0,
+        "tier2": 0.0,
+        "rerank": 617.0,
+        "total": 1991.0
+      },
+      "client_ms": 1992.82,
+      "response_time": 1.992,
+      "results": 2,
+      "request_id": "8c1c438b-b053-4585-b01a-ee4c93bcb553"
+    },
+    {
+      "mode": "basic",
+      "query": "sqlite wal mode concurrent readers bsxlvr11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 672.0,
+        "tier1": 350.0,
+        "tier2": 0.0,
+        "rerank": 323.0,
+        "total": 1085.0
+      },
+      "client_ms": 1085.89,
+      "response_time": 1.085,
+      "results": 2,
+      "request_id": "44d06ca0-b258-43eb-86d3-e6fef190256d"
+    },
+    {
+      "mode": "basic",
+      "query": "prometheus histogram quantiles explained bsxlvr12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 665.0,
+        "tier1": 1250.0,
+        "tier2": 0.0,
+        "rerank": 452.0,
+        "total": 1489.0
+      },
+      "client_ms": 1490.55,
+      "response_time": 1.49,
+      "results": 2,
+      "request_id": "5a527f20-0203-4408-8033-759ebd9fb4ca"
+    },
+    {
+      "mode": "basic",
+      "query": "kafka exactly once semantics transactions bsxlvr13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 660.0,
+        "tier1": 2758.0,
+        "tier2": 0.0,
+        "rerank": 405.0,
+        "total": 1770.0
+      },
+      "client_ms": 1771.22,
+      "response_time": 1.77,
+      "results": 5,
+      "request_id": "ee6b26a7-9125-488a-ad1e-5ac03d2a26fd"
+    },
+    {
+      "mode": "basic",
+      "query": "http2 server push deprecated why bsxlvr14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 688.0,
+        "tier1": 3478.0,
+        "tier2": 0.0,
+        "rerank": 414.0,
+        "total": 1755.0
+      },
+      "client_ms": 1755.97,
+      "response_time": 1.755,
+      "results": 2,
+      "request_id": "b9127d87-3f18-4138-a187-e0ed245a3cc2"
+    },
+    {
+      "mode": "basic",
+      "query": "websocket load balancing haproxy bsxlvr15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 620.0,
+        "tier1": 6492.0,
+        "tier2": 0.0,
+        "rerank": 319.0,
+        "total": 3233.0
+      },
+      "client_ms": 3234.8,
+      "response_time": 3.234,
+      "results": 2,
+      "request_id": "84475201-427b-4634-8ef9-528702db03f2"
+    },
+    {
+      "mode": "basic",
+      "query": "react server components streaming bsxlvr16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 653.0,
+        "tier1": 759.0,
+        "tier2": 0.0,
+        "rerank": 350.0,
+        "total": 1341.0
+      },
+      "client_ms": 1342.31,
+      "response_time": 1.341,
+      "results": 2,
+      "request_id": "b3bb9113-e584-411b-823e-a3d086bb4d51"
+    },
+    {
+      "mode": "basic",
+      "query": "css container queries support bsxlvr17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 628.0,
+        "tier1": 2421.0,
+        "tier2": 0.0,
+        "rerank": 378.0,
+        "total": 1601.0
+      },
+      "client_ms": 1601.93,
+      "response_time": 1.601,
+      "results": 2,
+      "request_id": "9a1a8cac-5a18-4210-be0e-0a88630e0b2a"
+    },
+    {
+      "mode": "basic",
+      "query": "webassembly component model status bsxlvr18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 657.0,
+        "tier1": 2046.0,
+        "tier2": 0.0,
+        "rerank": 437.0,
+        "total": 1701.0
+      },
+      "client_ms": 1702.38,
+      "response_time": 1.702,
+      "results": 2,
+      "request_id": "ebd2330a-b85d-4222-8ca6-913436947aaa"
+    },
+    {
+      "mode": "basic",
+      "query": "open telemetry collector pipeline bsxlvr19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 609.0,
+        "tier1": 2199.0,
+        "tier2": 0.0,
+        "rerank": 455.0,
+        "total": 1817.0
+      },
+      "client_ms": 1818.41,
+      "response_time": 1.818,
+      "results": 2,
+      "request_id": "316a8ee3-5511-4ab7-80f4-0e4e7110968c"
+    },
+    {
+      "mode": "basic",
+      "query": "terraform state locking dynamodb bsxlvr20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 653.0,
+        "tier1": 672.0,
+        "tier2": 0.0,
+        "rerank": 348.0,
+        "total": 1231.0
+      },
+      "client_ms": 1232.49,
+      "response_time": 1.231,
+      "results": 4,
+      "request_id": "ae705bf1-9471-4fd7-a355-ff077ee53e7a"
+    },
+    {
+      "mode": "basic",
+      "query": "aws lambda cold start mitigation bsxlvr21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 704.0,
+        "tier1": 2255.0,
+        "tier2": 0.0,
+        "rerank": 360.0,
+        "total": 1696.0
+      },
+      "client_ms": 1697.29,
+      "response_time": 1.696,
+      "results": 1,
+      "request_id": "f4d67f37-1685-4a69-be0f-65e40baaa5fa"
+    },
+    {
+      "mode": "basic",
+      "query": "cloudflare workers durable objects bsxlvr22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 577.0,
+        "tier1": 2736.0,
+        "tier2": 0.0,
+        "rerank": 262.0,
+        "total": 1612.0
+      },
+      "client_ms": 1612.95,
+      "response_time": 1.612,
+      "results": 1,
+      "request_id": "936463c9-4755-4d43-b14a-41ea0389ccb4"
+    },
+    {
+      "mode": "basic",
+      "query": "grpc deadline propagation bsxlvr23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 677.0,
+        "tier1": 1307.0,
+        "tier2": 0.0,
+        "rerank": 462.0,
+        "total": 1494.0
+      },
+      "client_ms": 1495.66,
+      "response_time": 1.495,
+      "results": 4,
+      "request_id": "08341e2d-a2aa-4e62-8635-a2a05c3b5f52"
+    },
+    {
+      "mode": "basic",
+      "query": "protobuf field presence optional bsxlvr24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 587.0,
+        "tier1": 921.0,
+        "tier2": 0.0,
+        "rerank": 443.0,
+        "total": 1309.0
+      },
+      "client_ms": 1309.92,
+      "response_time": 1.309,
+      "results": 3,
+      "request_id": "0066465e-632d-4cc9-a4cb-1377d17cc752"
+    },
+    {
+      "mode": "basic",
+      "query": "sql injection prepared statements bsxlvr25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 687.0,
+        "tier1": 1580.0,
+        "tier2": 0.0,
+        "rerank": 214.0,
+        "total": 1696.0
+      },
+      "client_ms": 1697.29,
+      "response_time": 1.696,
+      "results": 2,
+      "request_id": "0861099f-8edd-4cf4-bdb0-46f77d9b5234"
+    },
+    {
+      "mode": "basic",
+      "query": "oauth2 pkce flow mobile apps bsxlvr26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 657.0,
+        "tier1": 539.0,
+        "tier2": 0.0,
+        "rerank": 379.0,
+        "total": 1169.0
+      },
+      "client_ms": 1170.3,
+      "response_time": 1.17,
+      "results": 4,
+      "request_id": "f9291bb0-cded-4fc4-9786-e562d53602cb"
+    },
+    {
+      "mode": "basic",
+      "query": "jwt rotation refresh tokens bsxlvr27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 702.0,
+        "tier1": 3500.0,
+        "tier2": 0.0,
+        "rerank": 327.0,
+        "total": 1827.0
+      },
+      "client_ms": 1828.38,
+      "response_time": 1.827,
+      "results": 2,
+      "request_id": "56226c37-3eb7-4d5a-8efa-a7ec96a18f1d"
+    },
+    {
+      "mode": "basic",
+      "query": "bash process substitution examples bsxlvr28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 674.0,
+        "tier1": 4389.0,
+        "tier2": 0.0,
+        "rerank": 433.0,
+        "total": 2360.0
+      },
+      "client_ms": 2361.44,
+      "response_time": 2.361,
+      "results": 2,
+      "request_id": "36ba1421-da2e-41d3-ae32-9e2295c9b536"
+    },
+    {
+      "mode": "basic",
+      "query": "git rebase interactive squash bsxlvr29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 669.0,
+        "tier1": 767.0,
+        "tier2": 0.0,
+        "rerank": 330.0,
+        "total": 1146.0
+      },
+      "client_ms": 1147.07,
+      "response_time": 1.146,
+      "results": 3,
+      "request_id": "4a3e2864-866e-4abb-af63-e4aa6837c2f7"
+    },
+    {
+      "mode": "basic",
+      "query": "ffmpeg hardware acceleration nvenc bsxlvr30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 812.0,
+        "tier1": 24.0,
+        "tier2": 0.0,
+        "rerank": 328.0,
+        "total": 1150.0
+      },
+      "client_ms": 1151.0,
+      "response_time": 1.15,
+      "results": 3,
+      "request_id": "246ff440-34f2-41d8-b176-30dc9712e45d"
+    }
+  ]
+}

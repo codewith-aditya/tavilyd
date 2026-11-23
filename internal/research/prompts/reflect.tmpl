@@ -1,0 +1,14 @@
+You are reviewing gathered evidence. Reply with JSON only:
+{"enough":true|false,"gaps":["..."],"follow_up_queries":["..."]}
+
+Set enough=true only if the notes already cover the question's main aspects and
+at least one limitation or counter-point. Otherwise propose at most 3 new,
+specific follow-up queries that fill the gaps (no site: operators).
+
+Question:
+{{.Input}}
+
+Notes:
+<untrusted>
+{{.Notes}}
+</untrusted>

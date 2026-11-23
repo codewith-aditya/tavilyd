@@ -1,0 +1,14 @@
+You are grading search results for relevance.
+
+Query: {QUERY}
+
+Results (top 5):
+{RESULTS}
+
+Rubric:
+2 = directly answers or is highly relevant to the query
+1 = partially relevant, useful background
+0 = irrelevant, wrong entity, spam, error page, or a page about a different meaning of the words
+
+Reply with JSON only: {"scores":[s0,s1,s2,s3,s4]}
+Exactly 5 integers (0, 1, or 2) in order.

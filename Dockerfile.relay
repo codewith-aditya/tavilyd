@@ -1,0 +1,15 @@
+# syntax=docker/dockerfile:1.7
+FROM golang:1.26-bookworm AS build
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN --mount=type=cache,target=/go/pkg/mod go mod download
+COPY . .
+RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build \
+    CGO_ENABLED=0 go build -trimpath -buildvcs=false -ldflags "-s -w" -o /out/relay ./cmd/proxyrelay
+
+FROM gcr.io/distroless/static-debian12:nonroot
+COPY --from=build /out/relay /relay
+USER nonroot:nonroot
+EXPOSE 8888
+HEALTHCHECK --interval=20s --timeout=4s --start-period=5s --retries=5 CMD ["/relay", "-healthcheck"]
+ENTRYPOINT ["/relay"]

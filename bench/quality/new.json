@@ -1,0 +1,1791 @@
+{
+ "label": "new",
+ "note": "URLs/scores only; page snippets and titles stripped. Fallback wired correctly.",
+ "queries": [
+  {
+   "query": "golang context cancellation best practices",
+   "ms": 2842.0,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://webdevstation.com/posts/understanding-golang-context",
+     "engine_score": 0.9969,
+     "judge_score": 2
+    },
+    {
+     "url": "https://oneuptime.com/blog/post/2026-01-23-go-context-cancellation/view",
+     "engine_score": 0.8699,
+     "judge_score": 2
+    },
+    {
+     "url": "https://bytesizego.com/blog/context-golang",
+     "engine_score": 0.7324,
+     "judge_score": 2
+    },
+    {
+     "url": "https://golangtutorial.com/golang-context",
+     "engine_score": 0.539,
+     "judge_score": 2
+    },
+    {
+     "url": "https://golangbot.com/context-timeout-cancellation",
+     "engine_score": 0.5153,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "python asyncio taskgroup vs gather",
+   "ms": 2914.6,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://debuggedit.com/post/python-asyncio-task-groups-vs-gather-for-concurrent-api-calls",
+     "engine_score": 0.9982,
+     "judge_score": 2
+    },
+    {
+     "url": "https://codemia.io/knowledge-hub/path/asynciogather_vs_asynciowait_vs_asynciotaskgroup",
+     "engine_score": 0.9951,
+     "judge_score": 2
+    },
+    {
+     "url": "https://danilchenko.dev/posts/taskgroup-vs-gather",
+     "engine_score": 0.9896,
+     "judge_score": 2
+    },
+    {
+     "url": "https://designgurus.io/blog/asyncio-taskgroup-vs-gather",
+     "engine_score": 0.9587,
+     "judge_score": 2
+    },
+    {
+     "url": "https://recalldeck.dev/en/blog/python-asyncio-taskgroup-vs-gather-cancellation",
+     "engine_score": 0.9288,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "kubernetes readiness probe",
+   "ms": 2123.6,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://geeksforgeeks.org/devops/how-to-use-kubernetes-liveness-and-readiness-probes",
+     "engine_score": 0.9979,
+     "judge_score": 2
+    },
+    {
+     "url": "https://spacelift.io/blog/kubernetes-readiness-probe",
+     "engine_score": 0.9956,
+     "judge_score": 2
+    },
+    {
+     "url": "https://oneuptime.com/blog/post/2026-01-24-kubernetes-liveness-readiness-probes/view",
+     "engine_score": 0.9888,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/toothbrush/kubernetes-health-probes-liveness-readiness-and-startup-explained-5app",
+     "engine_score": 0.9798,
+     "judge_score": 2
+    },
+    {
+     "url": "https://kodekloud.com/blog/kubernetes-readiness-probe",
+     "engine_score": 0.8868,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "postgres index bloat diagnosis",
+   "ms": 2377.4,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://dbsnoop.com/how-to-remove-bloat-in-postgresql-tables-indexes",
+     "engine_score": 0.8617,
+     "judge_score": 2
+    },
+    {
+     "url": "https://mvpfactory.io/blog/postgresql-index-bloat-at-scale-identifying-dead-tuples-tracking-bloat-ratios",
+     "engine_score": 0.6121,
+     "judge_score": 2
+    },
+    {
+     "url": "https://pghealth.io/blog/postgresql-bloat-monitoring",
+     "engine_score": 0.5777,
+     "judge_score": 2
+    },
+    {
+     "url": "https://wiki.postgresql.org/wiki/Show_database_bloat",
+     "engine_score": 0.3762,
+     "judge_score": 2
+    },
+    {
+     "url": "https://kiransabne.dev/postgresql-index-bloat-why-it-happens-and-how-to-fix-it",
+     "engine_score": 0.3395,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "redis aof vs rdb",
+   "ms": 2306.5,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://oneuptime.com/blog/post/2026-01-21-redis-rdb-vs-aof/view",
+     "engine_score": 0.9961,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/godofgeeks/redis-persistence-rdb-vs-aof-3lk6",
+     "engine_score": 0.9928,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/leapcell/redis-persistence-explained-aof-rdb-1i23",
+     "engine_score": 0.9882,
+     "judge_score": 2
+    },
+    {
+     "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence",
+     "engine_score": 0.963,
+     "judge_score": 2
+    },
+    {
+     "url": "https://oneuptime.com/blog/post/2026-01-27-rdb-vs-aof-persistence-redis/view",
+     "engine_score": 0.8205,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "docker compose healthcheck",
+   "ms": 2588.1,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://last9.io/blog/docker-compose-health-checks",
+     "engine_score": 0.9948,
+     "judge_score": 2
+    },
+    {
+     "url": "https://geeksforgeeks.org/devops/docker-compose-healthchecks-ensuring-container-availability",
+     "engine_score": 0.9649,
+     "judge_score": 2
+    },
+    {
+     "url": "https://gist.github.com/supermarsx/d4c8ae4b11134247ac3f0acf75258290",
+     "engine_score": 0.9535,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dockerbuild.com/reference/healthcheck",
+     "engine_score": 0.9456,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/jjoc007/mastering-docker-defining-health-checks-in-docker-compose-4l5k",
+     "engine_score": 0.8834,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "linux cgroup v2 memory",
+   "ms": 2465.9,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://mohashari.github.io/linux-cgroups-v2-container-memory-oom-swap-accounting",
+     "engine_score": 0.9919,
+     "judge_score": 2
+    },
+    {
+     "url": "https://linuxconfig.net/howto/use-cgroups-v2-to-control-linux-resources.html",
+     "engine_score": 0.9824,
+     "judge_score": 2
+    },
+    {
+     "url": "https://kubernetes.io/docs/concepts/architecture/cgroups",
+     "engine_score": 0.9581,
+     "judge_score": 2
+    },
+    {
+     "url": "https://binadit.com/tutorials/configure-linux-memory-cgroups-v2-with-systemd-for-advanced-process-isolation-and-resource-control",
+     "engine_score": 0.8183,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/lyraalishaikh/your-oom-killer-is-guessing-practical-cgroup-v2-memory-control-on-linux-2jdn",
+     "engine_score": 0.8073,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "nginx websocket upgrade",
+   "ms": 2435.0,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://oneuptime.com/blog/post/2026-01-25-nginx-websocket-proxy/view",
+     "engine_score": 0.9874,
+     "judge_score": 2
+    },
+    {
+     "url": "https://stackharbor.com/en/knowledge-base/nginx-websocket-proxying",
+     "engine_score": 0.9834,
+     "judge_score": 2
+    },
+    {
+     "url": "https://stackharbor.com/en/knowledge-base/nginx-reverse-proxy-websocket",
+     "engine_score": 0.9833,
+     "judge_score": 2
+    },
+    {
+     "url": "https://getpagespeed.com/server-setup/nginx/nginx-websocket-proxy",
+     "engine_score": 0.9805,
+     "judge_score": 2
+    },
+    {
+     "url": "https://websocket.org/guides/infrastructure/nginx",
+     "engine_score": 0.9281,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "react server components",
+   "ms": 1796.9,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://reactrouter.com/how-to/react-server-components",
+     "engine_score": 0.9994,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/hasunnilupul/react-server-components-rsc-a-deep-dive-with-examples-and-diagrams-3g4c",
+     "engine_score": 0.9993,
+     "judge_score": 2
+    },
+    {
+     "url": "https://react.dev/reference/rsc/server-components",
+     "engine_score": 0.9985,
+     "judge_score": 2
+    },
+    {
+     "url": "https://dev.to/a1guy/react-19-server-components-deep-dive-what-they-are-how-they-work-and-when-to-use-them-2h2e",
+     "engine_score": 0.9958,
+     "judge_score": 2
+    },
+    {
+     "url": "https://joshwcomeau.com/react/server-components",
+     "engine_score": 0.9737,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "sqlite wal mode",
+   "ms": 1647.4,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://blog.codercops.com/blog/sqlite-wal-mode-explained-production-settings-2026",
+     "engine_score": 0.9985,
+     "judge_score": 2
+    },
+    {
+     "url": "https://deepwiki.com/sqlite/sqlite/3.4-write-ahead-logging-%28wal%29",
+     "engine_score": 0.9978,
+     "judge_score": 2
+    },
+    {
+     "url": "https://sqldocs.org/sqlite-write-ahead-logging",
+     "engine_score": 0.9929,
+     "judge_score": 2
+    },
+    {
+     "url": "https://blog.rajpoot.dev/cheatsheets/sqlite/02-wal-cheatsheet",
+     "engine_score": 0.9857,
+     "judge_score": 2
+    },
+    {
+     "url": "https://sqlite.org/walformat.html",
+     "engine_score": 0.9729,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "india union budget 2026 highlights",
+   "ms": 3312.4,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://legalserviceindia.com/Legal-Articles/union-budget-2026-27-highlights-india-analysis",
+     "engine_score": 0.9995,
+     "judge_score": 2
+    },
+    {
+     "url": "https://insightsonindia.com/2026/02/01/union-budget-2026-27-highlights-upsc",
+     "engine_score": 0.995,
+     "judge_score": 2
+    },
+    {
+     "url": "https://prsindia.org/files/budget/budget_parliament/2026/Union_Budget_Analysis-2026-27.pdf",
+     "engine_score": 0.9858,
+     "judge_score": 2
+    },
+    {
+     "url": "https://indmoney.com/blog/stocks/budget-highlights-2026",
+     "engine_score": 0.9671,
+     "judge_score": 2
+    },
+    {
+     "url": "https://ey.com/en_in/services/tax/union-budget-2026",
+     "engine_score": 0.9597,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "latest ai regulation news",
+   "ms": 2247.5,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://themodernblog.com/ai-regulation-news",
+     "engine_score": 0.9985,
+     "judge_score": 2
+    },
+    {
+     "url": "https://agenccy.ai/regulation/ai-regulation-news",
+     "engine_score": 0.9935,
+     "judge_score": 1
+    },
+    {
+     "url": "https://solidaitech.com/2026/02/ai-regulation-news.html",
+     "engine_score": 0.9852,
+     "judge_score": 2
+    },
+    {
+     "url": "https://regulations.ai/news",
+     "engine_score": 0.8941,
+     "judge_score": 2
+    },
+    {
+     "url": "https://aigovernance.com/news",
+     "engine_score": 0.8888,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "isro launch news",
+   "ms": 2116.1,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://newsnow.com/us/Science/Space+Exploration/ISRO",
+     "engine_score": 0.9776,
+     "judge_score": 2
+    },
+    {
+     "url": "https://business-standard.com/topic/isro",
+     "engine_score": 0.97,
+     "judge_score": 2
+    },
+    {
+     "url": "https://isro.gov.in/Press.html",
+     "engine_score": 0.9475,
+     "judge_score": 2
+    },
+    {
+     "url": "https://spacecraftindia.com/isro-launch-schedule-2026",
+     "engine_score": 0.9276,
+     "judge_score": 2
+    },
+    {
+     "url": "https://isro.gov.in/recent_updates.html",
+     "engine_score": 0.9183,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "russia ukraine ceasefire",
+   "ms": 3978.3,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://apnews.com/article/russia-ukraine-war-trump-f26143c32e4673686381d0ff87225720",
+     "engine_score": 0.99,
+     "judge_score": 2
+    },
+    {
+     "url": "https://cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky",
+     "engine_score": 0.9806,
+     "judge_score": 2
+    },
+    {
+     "url": "https://apnews.com/article/russia-ukraine-war-ceasefire-oleshky-melania-trump-60167627316e0e2f62fc359cf78f317d",
+     "engine_score": 0.9736,
+     "judge_score": 2
+    },
+    {
+     "url": "https://cnn.com/2026/10/27/europe/russia-ukraine-melania-trump-ceasefire-intl-hnk",
+     "engine_score": 0.9706,
+     "judge_score": 2
+    },
+    {
+     "url": "https://cnbc.com/2026/10/23/russia-ukraine-agree-to-oleshky-ceasefire-melania-trump-white-house.html",
+     "engine_score": 0.559,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "us election latest",
+   "ms": 3853.8,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://nbcnews.com/politics/elections",
+     "engine_score": 0.8888,
+     "judge_score": 2
+    },
+    {
+     "url": "https://cnn.com/election/2026",
+     "engine_score": 0.7148,
+     "judge_score": 2
+    },
+    {
+     "url": "https://reuters.com/world/us/elections",
+     "engine_score": 0.5322,
+     "judge_score": 2
+    },
+    {
+     "url": "https://foxnews.com/elections?msockid=18646ace1bc966e8306872d71aaa6758",
+     "engine_score": 0.5135,
+     "judge_score": 2
+    },
+    {
+     "url": "https://foxnews.com/elections",
+     "engine_score": 0.5135,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "monsoon forecast india 2026",
+   "ms": 2897.3,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://skymetweather.com/content/monsoon-update/skymet-weather-forecasts-below-normal-monsoon-for-india-in-2026",
+     "engine_score": 0.9995,
+     "judge_score": 2
+    },
+    {
+     "url": "https://blog.weathergo.co/monsoon-season-india-2026-state-by-state-arrival-dates-and-intensity-forecasts",
+     "engine_score": 0.9991,
+     "judge_score": 2
+    },
+    {
+     "url": "https://skymetweather.com/content/monsoon-update/monsoon-2026-detailed-forecast-below-normal-rainfall-likely-know-drought-chances-and-rain-distribution",
+     "engine_score": 0.9931,
+     "judge_score": 2
+    },
+    {
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc2026529878501.pdf",
+     "engine_score": 0.9412,
+     "judge_score": 2
+    },
+    {
+     "url": "https://blogreadersindia.in/monsoon-forecast-india-2026",
+     "engine_score": 0.3893,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "eu ai act enforcement",
+   "ms": 2903.1,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://regulation-ai.eu/en/blog/eu-ai-act-enforcement-august-2026",
+     "engine_score": 0.9942,
+     "judge_score": 2
+    },
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement",
+     "engine_score": 0.994,
+     "judge_score": 2
+    },
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+     "engine_score": 0.9931,
+     "judge_score": 2
+    },
+    {
+     "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+     "engine_score": 0.9875,
+     "judge_score": 2
+    },
+    {
+     "url": "https://perspectivelabs.org/eu-ai-act-enforcement-august-2026",
+     "engine_score": 0.9683,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "openai latest announcement",
+   "ms": 2755.9,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://openainews.org/",
+     "engine_score": 0.864,
+     "judge_score": 2
+    },
+    {
+     "url": "https://techradar.com/ai-platforms-assistants/openai",
+     "engine_score": 0.79,
+     "judge_score": 1
+    },
+    {
+     "url": "https://community.openai.com/c/announcements/6",
+     "engine_score": 0.7858,
+     "judge_score": 2
+    },
+    {
+     "url": "https://openai.com/news/company-announcements",
+     "engine_score": 0.7658,
+     "judge_score": 2
+    },
+    {
+     "url": "https://britannica.com/money/OpenAI",
+     "engine_score": 0.4765,
+     "judge_score": 0
+    }
+   ]
+  },
+  {
+   "query": "oil prices opec",
+   "ms": 2827.6,
+   "count": 5,
+   "top5": [
+    {
+     "url": "https://oilmonster.com/crude-oil-prices/opec/226",
+     "engine_score": 0.9908,
+     "judge_score": 2
+    },
+    {
+     "url": "https://liveoilprices.com/commodity/OPEC",
+     "engine_score": 0.9237,
+     "judge_score": 2
+    },
+    {
+     "url": "https://oilprice.com/oil-price-charts/29",
+     "engine_score": 0.6001,
+     "judge_score": 2
+    },
+    {
+     "url": "https://investopedia.com/articles/investing/081315/opec-vs-us-who-controls-oil-prices.asp",
+     "engine_score": 0.2676,
+     "judge_score": 2
+    },
+    {
+     "url": "https://tradingeconomics.com/commodity/crude-oil",
+     "engine_score": 0.0834,
+     "judge_score": 1
+    }
+   ]
+  },
+  {
+   "query": "japan election",
+   "ms": 2330.0,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://apnews.com/article/japan-election-bbb322b4dc1dcad8f7373ba7aae4d535",
+     "engine_score": 0.948,
+     "judge_score": 2
+    },
+    {
+     "url": "https://time.com/7372956/japan-takaichi-election-win",
+     "engine_score": 0.946,
+     "judge_score": 2
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Next_Japanese_general_election",
+     "engine_score": 0.8142,
+     "judge_score": 1
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2026_Japanese_general_election",
+     "engine_score": 0.7556,
+     "judge_score": 2
+    },
+    {
+     "url": "https://japannews.yomiuri.co.jp/politics/election",
+     "engine_score": 0.4396,
+     "judge_score": 2
+    }
+   ]
+  },
+  {
+   "query": "nifty 50 outlook 2026",
+   "ms": 1703.6,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://tradersunion.com/currencies/forecast/nsei-inr",
+     "engine_score": 0.9996,
+     "judge_score": null
+    },
+    {
+     "url": "https://univest.in/blogs/nifty-50-prediction-for-2026",
+     "engine_score": 0.9993,
+     "judge_score": null
+    },
+    {
+     "url": "https://trendlyne.com/posts/5483874/nifty-50-outlook-hopes-rise-for-2026-after-a-volatile-year",
+     "engine_score": 0.9936,
+     "judge_score": null
+    },
+    {
+     "url": "https://arjitanand.substack.com/p/india-equity-outlook-2026-a-framework",
+     "engine_score": 0.9731,
+     "judge_score": null
+    },
+    {
+     "url": "https://bingx.com/en/learn/article/nifty-50-index-forecast-and-price-prediction-is-nifty-50-a-good-investment",
+     "engine_score": 0.8848,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "rbi repo rate decision",
+   "ms": 2533.5,
+   "count": 5,
+   "top5": [
+    {
+     "url": "https://5paisa.com/blog/rbi-mpc-meeting-schedule",
+     "engine_score": 0.9957,
+     "judge_score": null
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-mpc-meeting-october-2026-repo-rate-decision-inflation-gdp-growth-outlook-key-takeaways/articleshow/134755892.cms",
+     "engine_score": 0.9941,
+     "judge_score": null
+    },
+    {
+     "url": "https://tradingeconomics.com/india/interest-rate",
+     "engine_score": 0.9933,
+     "judge_score": null
+    },
+    {
+     "url": "https://stableinvestor.com/2021/10/rbi-repo-rate-history-india.html",
+     "engine_score": 0.9009,
+     "judge_score": null
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-mpc-repo-rate-2026-decision-why-hiked-interest-rate-reasons-2026-inflation-gdp-growth-policy-gap-first-time-in-nearly-four-years-in-october/articleshow/134754956.cms",
+     "engine_score": 0.8622,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "sip vs lump sum",
+   "ms": 2871.6,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://etmoney.com/learn/mutual-funds/sip-vs-lumpsum-which-is-better-for-investing",
+     "engine_score": 0.9989,
+     "judge_score": null
+    },
+    {
+     "url": "https://bajajfinserv.in/investments/sip-vs-lump-sum-investment",
+     "engine_score": 0.995,
+     "judge_score": null
+    },
+    {
+     "url": "https://groww.in/blog/sip-vs-lumpsum",
+     "engine_score": 0.9891,
+     "judge_score": null
+    },
+    {
+     "url": "https://sc.bank.in/investment/wealthinsights/sip-vs-lumpsum",
+     "engine_score": 0.9879,
+     "judge_score": null
+    },
+    {
+     "url": "https://angelone.in/knowledge-center/mutual-funds/lump-sum-vs-sip",
+     "engine_score": 0.9684,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "best index funds india",
+   "ms": 1826.5,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://groww.in/blog/best-index-funds",
+     "engine_score": 0.9705,
+     "judge_score": null
+    },
+    {
+     "url": "https://tickertape.in/mutualfunds/collections/index-funds",
+     "engine_score": 0.967,
+     "judge_score": null
+    },
+    {
+     "url": "https://mutual-funds.ai/best/index-funds",
+     "engine_score": 0.7362,
+     "judge_score": null
+    },
+    {
+     "url": "https://icici.bank.in/personal-banking/blogs/investments/mutual-funds/best-index-mutual-funds",
+     "engine_score": 0.5062,
+     "judge_score": null
+    },
+    {
+     "url": "https://economictimes.indiatimes.com/mutual-fund-screener/top-performing-index-funds",
+     "engine_score": 0.2244,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "gold price forecast",
+   "ms": 2860.0,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://coincodex.com/precious-metal/gold/forecast",
+     "engine_score": 0.9989,
+     "judge_score": null
+    },
+    {
+     "url": "https://goldpricetools.com/guides/gold-price-prediction-2026",
+     "engine_score": 0.9881,
+     "judge_score": null
+    },
+    {
+     "url": "https://goldrepublic.com/en-us/gold-price/forecast",
+     "engine_score": 0.8254,
+     "judge_score": null
+    },
+    {
+     "url": "https://goldpricedata.com/en/gold-price-forecast",
+     "engine_score": 0.7216,
+     "judge_score": null
+    },
+    {
+     "url": "https://gold.org/",
+     "engine_score": 0.3439,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "crypto tax india",
+   "ms": 1691.6,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://coindcx.com/blog/cryptocurrency/crypto-taxes-in-india",
+     "engine_score": 0.9988,
+     "judge_score": null
+    },
+    {
+     "url": "https://coinledger.io/guides/crypto-tax-india",
+     "engine_score": 0.9983,
+     "judge_score": null
+    },
+    {
+     "url": "https://cleartax.in/s/cryptocurrency-taxation-guide",
+     "engine_score": 0.997,
+     "judge_score": null
+    },
+    {
+     "url": "https://koinx.com/in/crypto-tax-guide",
+     "engine_score": 0.9966,
+     "judge_score": null
+    },
+    {
+     "url": "https://cryptosyntix.com/tax",
+     "engine_score": 0.9942,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "ppf vs nps",
+   "ms": 2754.1,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://bajajfinserv.in/investments/nps-v-ppf",
+     "engine_score": 0.997,
+     "judge_score": null
+    },
+    {
+     "url": "https://investedges.com/retirement/nps-vs-ppf-retirement",
+     "engine_score": 0.9953,
+     "judge_score": null
+    },
+    {
+     "url": "https://etmoney.com/learn/nps/nps-vs-ppf-which-is-a-better-option-to-build-a-retirement-corpus",
+     "engine_score": 0.9873,
+     "judge_score": null
+    },
+    {
+     "url": "https://paisabazaar.com/saving-schemes/nps-vs-ppf",
+     "engine_score": 0.9418,
+     "judge_score": null
+    },
+    {
+     "url": "https://npscalculators.in/nps-vs-ppf-calculator",
+     "engine_score": 0.9127,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "home loan balance transfer",
+   "ms": 2513.8,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://bajajhousingfinance.in/home-loan-balance-transfer",
+     "engine_score": 0.9997,
+     "judge_score": null
+    },
+    {
+     "url": "https://icici.bank.in/personal-banking/loans/home-loan/balance-transfer",
+     "engine_score": 0.9994,
+     "judge_score": null
+    },
+    {
+     "url": "https://fincalculator.in/home-loan-balance-transfer-calculator",
+     "engine_score": 0.9991,
+     "judge_score": null
+    },
+    {
+     "url": "https://axis.bank.in/loans/home-loan/balance-transfer",
+     "engine_score": 0.9985,
+     "judge_score": null
+    },
+    {
+     "url": "https://idfcfirst.bank.in/personal-banking/loans/home-loan/home-loan-balance-transfer",
+     "engine_score": 0.9983,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "term insurance vs whole life",
+   "ms": 2936.7,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://insurance.com/life-insurance/life-insurance-basics/term-vs-whole-life-insurance",
+     "engine_score": 0.9994,
+     "judge_score": null
+    },
+    {
+     "url": "https://policyadvisor.com/life-insurance/term-life-versus-whole-life-insurance",
+     "engine_score": 0.9994,
+     "judge_score": null
+    },
+    {
+     "url": "https://investopedia.com/term-life-vs-whole-life-5075430",
+     "engine_score": 0.9992,
+     "judge_score": null
+    },
+    {
+     "url": "https://insurancegeek.com/life-insurance/term-vs-whole-life-insurance",
+     "engine_score": 0.993,
+     "judge_score": null
+    },
+    {
+     "url": "https://wsj.com/buyside/personal-finance/life-insurance/term-vs-whole-life-insurance",
+     "engine_score": 0.9866,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "sovereign gold bond",
+   "ms": 2340.7,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Sovereign_Gold_Bond",
+     "engine_score": 0.9994,
+     "judge_score": null
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/BS_SwarnaBharat.aspx",
+     "engine_score": 0.9964,
+     "judge_score": null
+    },
+    {
+     "url": "https://sbi.bank.in/web/personal-banking/investments-deposits/govt-schemes/gold-banking/sovereign-gold-bond-scheme-sgb",
+     "engine_score": 0.9957,
+     "judge_score": null
+    },
+    {
+     "url": "https://icici.bank.in/personal-banking/investments/sovereign-gold-bond",
+     "engine_score": 0.9951,
+     "judge_score": null
+    },
+    {
+     "url": "https://learn.apmex.com/investing-guide/gold/what-are-gold-bonds",
+     "engine_score": 0.9575,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to lower blood pressure naturally",
+   "ms": 2304.1,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://medicalnewstoday.com/articles/318716",
+     "engine_score": 0.9891,
+     "judge_score": null
+    },
+    {
+     "url": "https://health.clevelandclinic.org/foods-to-lower-blood-pressure",
+     "engine_score": 0.9698,
+     "judge_score": null
+    },
+    {
+     "url": "https://health.com/natural-remedies-for-high-blood-pressure-11694482",
+     "engine_score": 0.9648,
+     "judge_score": null
+    },
+    {
+     "url": "https://verywellhealth.com/herbs-and-spices-to-lower-blood-pressure-11858873",
+     "engine_score": 0.9251,
+     "judge_score": null
+    },
+    {
+     "url": "https://verywellhealth.com/how-to-lower-blood-pressure-6888939",
+     "engine_score": 0.8982,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to improve sleep hygiene",
+   "ms": 1782.6,
+   "count": 1,
+   "top5": [
+    {
+     "url": "https://thefreedictionary.com/improve",
+     "engine_score": 0.0007,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to reduce back pain at desk",
+   "ms": 1923.3,
+   "count": 1,
+   "top5": [
+    {
+     "url": "https://dictionary.cambridge.org/us/dictionary/english/reduce",
+     "engine_score": 0.0008,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to make paneer at home",
+   "ms": 1902.3,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://hebbarskitchen.com/homemade-paneer-recipe-2-ways",
+     "engine_score": 0.9903,
+     "judge_score": null
+    },
+    {
+     "url": "https://tarladalal.com/paneer-recipe--how-to-make-paneer-424r",
+     "engine_score": 0.9604,
+     "judge_score": null
+    },
+    {
+     "url": "https://bbcgoodfood.com/recipes/paneer",
+     "engine_score": 0.9419,
+     "judge_score": null
+    },
+    {
+     "url": "https://vegrecipesofindia.com/how-to-make-paneer-homemade-paneer",
+     "engine_score": 0.8911,
+     "judge_score": null
+    },
+    {
+     "url": "https://srijiskitchen.com/homemade-paneer",
+     "engine_score": 0.8824,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to start running safely",
+   "ms": 1690.8,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://greatist.com/fitness/how-to-start-running",
+     "engine_score": 0.9803,
+     "judge_score": null
+    },
+    {
+     "url": "https://greatruns.com/articles/ultimate-guide-on-how-to-start-running-safety-tips",
+     "engine_score": 0.9528,
+     "judge_score": null
+    },
+    {
+     "url": "https://runnersblueprint.com/how-to-get-into-running-the-no-bull-guide-for-beginners",
+     "engine_score": 0.892,
+     "judge_score": null
+    },
+    {
+     "url": "https://health.clevelandclinic.org/when-and-how-to-start-a-running-program",
+     "engine_score": 0.6939,
+     "judge_score": null
+    },
+    {
+     "url": "https://trailandkale.com/how-to-start-running-beginners-guide",
+     "engine_score": 0.687,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to improve posture",
+   "ms": 1919.0,
+   "count": 2,
+   "top5": [
+    {
+     "url": "https://dictionary.com/browse/improve",
+     "engine_score": 0.0021,
+     "judge_score": null
+    },
+    {
+     "url": "https://improveinternational.com/us",
+     "engine_score": 0.0001,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to treat common cold",
+   "ms": 2758.7,
+   "count": 6,
+   "top5": [
+    {
+     "url": "https://hopkinsmedicine.org/health/wellness-and-prevention/the-dos-and-donts-of-easing-cold-symptoms",
+     "engine_score": 0.9904,
+     "judge_score": null
+    },
+    {
+     "url": "https://mayoclinic.org/diseases-conditions/common-cold/diagnosis-treatment/drc-20351611",
+     "engine_score": 0.9668,
+     "judge_score": null
+    },
+    {
+     "url": "https://healthline.com/health/cold-flu/how-to-get-rid-of-a-cold-fast",
+     "engine_score": 0.954,
+     "judge_score": null
+    },
+    {
+     "url": "https://medlineplus.gov/ency/patientinstructions/000466.htm",
+     "engine_score": 0.8648,
+     "judge_score": null
+    },
+    {
+     "url": "https://verywellhealth.com/common-cold-self-care-7488765",
+     "engine_score": 0.843,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to manage diabetes diet",
+   "ms": 2219.1,
+   "count": 1,
+   "top5": [
+    {
+     "url": "https://vocabulary.com/dictionary/manage",
+     "engine_score": 0.0002,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to improve gut health",
+   "ms": 2893.8,
+   "count": 6,
+   "top5": [
+    {
+     "url": "https://verywellhealth.com/how-to-improve-gut-health-11712148",
+     "engine_score": 0.9938,
+     "judge_score": null
+    },
+    {
+     "url": "https://medicalnewstoday.com/articles/325293",
+     "engine_score": 0.9909,
+     "judge_score": null
+    },
+    {
+     "url": "https://health.clevelandclinic.org/how-to-improve-your-digestive-tract-naturally",
+     "engine_score": 0.9481,
+     "judge_score": null
+    },
+    {
+     "url": "https://healthline.com/health/gut-health",
+     "engine_score": 0.9219,
+     "judge_score": null
+    },
+    {
+     "url": "https://eatingwell.com/article/8021156/foods-to-improve-gut-health-overnight",
+     "engine_score": 0.3171,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "how to stretch tight hamstrings",
+   "ms": 2911.6,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://verywellhealth.com/why-are-my-hamstrings-so-tight-7568120",
+     "engine_score": 0.9959,
+     "judge_score": null
+    },
+    {
+     "url": "https://verywellfit.com/hamstring-stretches-2696359",
+     "engine_score": 0.9751,
+     "judge_score": null
+    },
+    {
+     "url": "https://medicalnewstoday.com/articles/323703",
+     "engine_score": 0.9574,
+     "judge_score": null
+    },
+    {
+     "url": "https://odin.fitness/blog/how-to-stretch-hamstrings",
+     "engine_score": 0.8988,
+     "judge_score": null
+    },
+    {
+     "url": "https://youtube.com/watch?v=2SdMmx_sLNc",
+     "engine_score": 0.8299,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Satya Nadella biography",
+   "ms": 2237.0,
+   "count": 6,
+   "top5": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Satya_Nadella",
+     "engine_score": 0.9982,
+     "judge_score": null
+    },
+    {
+     "url": "https://britannica.com/money/Satya-Nadella",
+     "engine_score": 0.9922,
+     "judge_score": null
+    },
+    {
+     "url": "https://thebostonreport.com/2026/11/18/satya-nadella-biography",
+     "engine_score": 0.9812,
+     "judge_score": null
+    },
+    {
+     "url": "https://news.microsoft.com/source/exec/satya-nadella",
+     "engine_score": 0.9796,
+     "judge_score": null
+    },
+    {
+     "url": "https://biyografiler.com/en/biography/satya-nadella",
+     "engine_score": 0.9733,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Infosys latest earnings",
+   "ms": 2207.1,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://stockinvest.us/earnings-report/INFY",
+     "engine_score": 0.9925,
+     "judge_score": null
+    },
+    {
+     "url": "https://seekingalpha.com/symbol/INFY/earnings",
+     "engine_score": 0.9817,
+     "judge_score": null
+    },
+    {
+     "url": "https://marketbeat.com/earnings/reports/2026-4-23-infosys-limited-stock",
+     "engine_score": 0.9815,
+     "judge_score": null
+    },
+    {
+     "url": "https://in.investing.com/equities/infosys-earnings",
+     "engine_score": 0.9429,
+     "judge_score": null
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Infosys_Consulting",
+     "engine_score": 0.9274,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Tata Motors leadership",
+   "ms": 2227.2,
+   "count": 9,
+   "top5": [
+    {
+     "url": "https://theofficialboard.com/org-chart/tata-motors",
+     "engine_score": 0.9989,
+     "judge_score": null
+    },
+    {
+     "url": "https://anandrathi.com/stocks/tata-motors-ltd/board-of-directors",
+     "engine_score": 0.9984,
+     "judge_score": null
+    },
+    {
+     "url": "https://business-standard.com/companies/people/shailesh-chandra-tata-motors-joint-md-ceo-restructuring-leadership-125092700627_1.html",
+     "engine_score": 0.9969,
+     "judge_score": null
+    },
+    {
+     "url": "https://bizkonnect.ai/companies/tata-motors",
+     "engine_score": 0.8995,
+     "judge_score": null
+    },
+    {
+     "url": "https://tatamotors.com/tmfhl-general-inform/details-of-board-and-committees",
+     "engine_score": 0.64,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Elon Musk companies",
+   "ms": 2746.2,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://builtin.com/articles/elon-musk-companies",
+     "engine_score": 0.9992,
+     "judge_score": null
+    },
+    {
+     "url": "https://fourweekmba.com/elon-musk-companies",
+     "engine_score": 0.9989,
+     "judge_score": null
+    },
+    {
+     "url": "https://slashgear.com/1925013/elon-musk-owned-companies",
+     "engine_score": 0.9981,
+     "judge_score": null
+    },
+    {
+     "url": "https://industrytap.com/elon-musk-companies-complete-list/79354",
+     "engine_score": 0.9914,
+     "judge_score": null
+    },
+    {
+     "url": "https://bgr.com/2108828/companies-owned-elon-musk",
+     "engine_score": 0.9909,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Sam Altman background",
+   "ms": 2663.8,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://en.biographykind.com/sam-altman",
+     "engine_score": 0.9966,
+     "judge_score": null
+    },
+    {
+     "url": "https://britannica.com/money/Sam-Altman",
+     "engine_score": 0.9955,
+     "judge_score": null
+    },
+    {
+     "url": "https://press.farm/sam-altmans-background-and-childhood",
+     "engine_score": 0.9922,
+     "judge_score": null
+    },
+    {
+     "url": "https://simple.wikipedia.org/wiki/Sam_Altman",
+     "engine_score": 0.9875,
+     "judge_score": null
+    },
+    {
+     "url": "https://advicescout.com/altmans-education-background",
+     "engine_score": 0.9863,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Nvidia company profile",
+   "ms": 2608.3,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://thecodew.com/p/nvidia-company-profile.html",
+     "engine_score": 0.9975,
+     "judge_score": null
+    },
+    {
+     "url": "https://investor.nvidia.com/home",
+     "engine_score": 0.9951,
+     "judge_score": null
+    },
+    {
+     "url": "https://tracxn.com/d/companies/nvidia/__Rwvr9cCWEygAYAiBEK0RuL1AbkKNw9sBGPqMEY6zVh4",
+     "engine_score": 0.9872,
+     "judge_score": null
+    },
+    {
+     "url": "https://nvidia.com/content/dam/en-zz/Solutions/about-nvidia/corporate-nvidia-in-brief.pdf",
+     "engine_score": 0.9752,
+     "judge_score": null
+    },
+    {
+     "url": "https://stockanalysis.com/stocks/nvda/company",
+     "engine_score": 0.9573,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Zomato founder",
+   "ms": 1809.5,
+   "count": 10,
+   "top5": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Zomato",
+     "engine_score": 0.999,
+     "judge_score": null
+    },
+    {
+     "url": "https://eternal.com/investor-relations/governance/deepinder-goyal",
+     "engine_score": 0.9985,
+     "judge_score": null
+    },
+    {
+     "url": "https://corpdigest.com/company/zomato/company-history",
+     "engine_score": 0.9979,
+     "judge_score": null
+    },
+    {
+     "url": "https://thefoundernation.com/pankaj-chaddah-zomato-founder-story",
+     "engine_score": 0.9969,
+     "judge_score": null
+    },
+    {
+     "url": "https://startuptalky.com/zomato-success-story",
+     "engine_score": 0.9958,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Adani group companies",
+   "ms": 2688.5,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://indiatimes.com/worth/news/complete-list-of-companies-that-come-under-the-adani-group/articleshow/122443619.html",
+     "engine_score": 0.9993,
+     "judge_score": null
+    },
+    {
+     "url": "https://agbi.com/companies/adani-group",
+     "engine_score": 0.9992,
+     "judge_score": null
+    },
+    {
+     "url": "https://thecompaniesindia.com/adani-group-companies",
+     "engine_score": 0.9975,
+     "judge_score": null
+    },
+    {
+     "url": "https://adani.com/businesses",
+     "engine_score": 0.9938,
+     "judge_score": null
+    },
+    {
+     "url": "https://lakshmishree.com/blog/adani-companies-list",
+     "engine_score": 0.9873,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "best restaurants in Nanded",
+   "ms": 2727.2,
+   "count": 2,
+   "top5": [
+    {
+     "url": "https://justdial.com/Nanded/Restaurants/nct-10408936",
+     "engine_score": 0.4381,
+     "judge_score": null
+    },
+    {
+     "url": "https://zomato.com/nanded/restaurants",
+     "engine_score": 0.3149,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Nanded weather today",
+   "ms": 2907.9,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://accuweather.com/en/in/nanded/194832/hourly-weather-forecast/194832",
+     "engine_score": 0.9653,
+     "judge_score": null
+    },
+    {
+     "url": "https://accuweather.com/en/in/nanded/194832/weather-forecast/194832",
+     "engine_score": 0.9613,
+     "judge_score": null
+    },
+    {
+     "url": "https://easeweather.com/asia/india/maharashtra/nanded/today",
+     "engine_score": 0.9558,
+     "judge_score": null
+    },
+    {
+     "url": "https://accuweather.com/en/in/nanded-waghala/2772358/hourly-weather-forecast/2772358",
+     "engine_score": 0.9209,
+     "judge_score": null
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/weather/nanded-weather-forecast-today/3450",
+     "engine_score": 0.612,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "maharashtra government schemes",
+   "ms": 3094.8,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://schemesinindia.in/schemes/maharashtra",
+     "engine_score": 0.997,
+     "judge_score": null
+    },
+    {
+     "url": "https://govtschemes.in/allschemes/Maharashtra",
+     "engine_score": 0.988,
+     "judge_score": null
+    },
+    {
+     "url": "https://mahaschemes.in/",
+     "engine_score": 0.9877,
+     "judge_score": null
+    },
+    {
+     "url": "https://mhgovtscheme.com/home",
+     "engine_score": 0.9743,
+     "judge_score": null
+    },
+    {
+     "url": "https://sarkariyojana.com/maharashtra",
+     "engine_score": 0.9557,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Pune traffic news",
+   "ms": 2545.6,
+   "count": 8,
+   "top5": [
+    {
+     "url": "https://indianexpress.com/about/pune-traffic-police",
+     "engine_score": 0.9814,
+     "judge_score": null
+    },
+    {
+     "url": "https://x.com/traffic_pune",
+     "engine_score": 0.9776,
+     "judge_score": null
+    },
+    {
+     "url": "https://indianexpress.com/about/pune-traffic",
+     "engine_score": 0.9755,
+     "judge_score": null
+    },
+    {
+     "url": "https://punetv.in/pune-traffic-today",
+     "engine_score": 0.9414,
+     "judge_score": null
+    },
+    {
+     "url": "https://marathi.timesnownews.com/maharashtra/pune-traffic-update-major-roads-closed-for-2-days-due-to-amit-shahs-visit-check-alternative-routes-article-156511855",
+     "engine_score": 0.9263,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "Mumbai local train timings",
+   "ms": 2772.1,
+   "count": 4,
+   "top5": [
+    {
+     "url": "https://findmytrain.in/guides/comprehensive-guide-to-mumbai-local-train-timetables-2026",
+     "engine_score": 0.9804,
+     "judge_score": null
+    },
+    {
+     "url": "https://mumbaimetro.info/local-trains/harbour/timetable",
+     "engine_score": 0.906,
+     "judge_score": null
+    },
+    {
+     "url": "https://m-indicator.mobond.com/",
+     "engine_score": 0.8121,
+     "judge_score": null
+    },
+    {
+     "url": "https://railwise.in/mumbai/local-travel",
+     "engine_score": 0.4448,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "hyderabad tech jobs",
+   "ms": 2647.0,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://creonjobs.com/jobs/in/hyderabad",
+     "engine_score": 0.9959,
+     "judge_score": null
+    },
+    {
+     "url": "https://in.linkedin.com/jobs/in-tech-jobs-hyderabad",
+     "engine_score": 0.9684,
+     "judge_score": null
+    },
+    {
+     "url": "https://in.linkedin.com/jobs/tech-jobs-hyderabad",
+     "engine_score": 0.9374,
+     "judge_score": null
+    },
+    {
+     "url": "https://careersat.tech/jobs/in/hyderabad",
+     "engine_score": 0.9327,
+     "judge_score": null
+    },
+    {
+     "url": "https://startups.mapmyhyd.com/jobs",
+     "engine_score": 0.8878,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "nanded municipal election",
+   "ms": 2370.5,
+   "count": 6,
+   "top5": [
+    {
+     "url": "https://marathi.abplive.com/elections/nanded-election-results-2026-live-updates-nikal-nanded-municipal-corporation-maharashtra-winner-list-bjp-shivsena-mns-uddhav-thackeray-raj-thackeray-eknath-shinde-devendra-fadnavis-marathi-news-1408664",
+     "engine_score": 0.9957,
+     "judge_score": null
+    },
+    {
+     "url": "https://lokmat.com/nanded/nanded-municipal-corporation-election-results-who-won-in-which-ward-see-the-complete-list-a-a732",
+     "engine_score": 0.9955,
+     "judge_score": null
+    },
+    {
+     "url": "https://lokmat.com/nanded/nanded-municipal-election-results-2026-lotus-bloomed-in-nanded-power-slipped-from-hands-bjps-undisputed-dominance-with-43-seats-a-a320",
+     "engine_score": 0.993,
+     "judge_score": null
+    },
+    {
+     "url": "https://maharashtratimes.com/maharashtra/nanded/nanded-municipal-election-result-2026-bjp-win-45-seats-one-side-under-the-leadership-of-ashok-chavan/articleshow/126600165.cms",
+     "engine_score": 0.968,
+     "judge_score": null
+    },
+    {
+     "url": "https://loksatta.com/maharashtra/nanded-municipal-council-election-results-2025-live-updated-winner-list-nagar-parishad-nivadnuk-nikal-5585869",
+     "engine_score": 0.9436,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "कृत्रिम बुद्धिमत्ता क्या है",
+   "ms": 2727.6,
+   "count": 2,
+   "top5": [
+    {
+     "url": "https://khanglobalstudies.com/blog/about-artificial-intelligence",
+     "engine_score": 0.9997,
+     "judge_score": null
+    },
+    {
+     "url": "https://drishtiias.com/hindi/to-the-points/paper3/artificial-intelligence-23",
+     "engine_score": 0.1312,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "भारत की अर्थव्यवस्था",
+   "ms": 2163.2,
+   "count": 3,
+   "top5": [
+    {
+     "url": "https://jagran.com/business/biz-goldman-sachs-india-economy-to-grow-7point2-percent-by-2027-outpacing-china-40437300.html",
+     "engine_score": 0.9913,
+     "judge_score": null
+    },
+    {
+     "url": "https://smartgk.in/economy-in-hindi",
+     "engine_score": 0.8556,
+     "judge_score": null
+    },
+    {
+     "url": "https://hindiarise.com/sectors-of-indian-economy-in-hindi",
+     "engine_score": 0.7663,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "स्वास्थ्य के लिए योग",
+   "ms": 2615.4,
+   "count": 7,
+   "top5": [
+    {
+     "url": "https://artofliving.org/in-hi/yoga/yoga-sequences-for/health-and-wellness",
+     "engine_score": 0.9912,
+     "judge_score": null
+    },
+    {
+     "url": "https://healthshots.com/hindi/fitness/yoga-asanas-to-soothe-your-mind-and-body-naturally",
+     "engine_score": 0.9646,
+     "judge_score": null
+    },
+    {
+     "url": "https://artofliving.org/in-hi/yoga/yoga-sequences-for/yoga-poses-for-healthy-heart",
+     "engine_score": 0.8458,
+     "judge_score": null
+    },
+    {
+     "url": "https://patanjaliyogasutra.in/article/yoga-and-health",
+     "engine_score": 0.8298,
+     "judge_score": null
+    },
+    {
+     "url": "https://healthfullyindia.com/yog-ke-labh-aur-mahatva",
+     "engine_score": 0.7578,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "मौसम पूर्वानुमान",
+   "ms": 5191.8,
+   "count": 2,
+   "top5": [
+    {
+     "url": "https://meteored.com/hi",
+     "engine_score": 0.1274,
+     "judge_score": null
+    },
+    {
+     "url": "https://facebook.com/mfd.nepal.5",
+     "engine_score": 0.0258,
+     "judge_score": null
+    }
+   ]
+  },
+  {
+   "query": "शिक्षा प्रणाली सुधार",
+   "ms": 2402.4,
+   "count": 6,
+   "top5": [
+    {
+     "url": "https://hindikunj.com/2025/05/shiksha-pranali-me-sudhar-aur-digital-shiksha-ka-vistaar.html",
+     "engine_score": 0.9952,
+     "judge_score": null
+    },
+    {
+     "url": "https://fastercapital.com/hi/content/%25E0%25A4%25B6%25E0%25A4%25BF%25E0%25A4%2595%25E0%25A5%258D%25E0%25A4%25B7%25E0%25A4%25BE-%25E0%25A4%25B8%25E0%25A5%2581%25E0%25A4%25A7%25E0%25A4%25BE%25E0%25A4%25B0-%25E0%25A4%2594%25E0%25A4%25B0-%25E0%25A4%25A8%25E0%25A4%25B5%25E0%25A4%25BE%25E0%25A4%259A%25E0%25A4%25BE%25E0%25A4%25B0-%25E0%25A4%2594%25E0%25A4%25B0-%25E0%25A4%25B5%25E0%25A5%258D%25E0%25A4%25AF%25E0%25A4%25B5%25E0%25A4%25A7%25E0%25A4%25BE%25E0%25A4%25A8--%25E0%25A4%25B6%25E0%25A4%25BF%25E0%25A4%2595%25E0%25A5%258D%25E0%25A4%25B7%25E0%25A4%25BE-%25E0%25A4%25B8%25E0%25A5%2581%25E0%25A4%25A7%25E0%25A4%25BE%25E0%25A4%25B0-%25E0%25A4%2595%25E0%25A5%2587-%25E0%25A4%25B2%25E0%25A4%25BF%25E0%25A4%258F-%25E0%25A4%2589%25E0%25A4%25A6%25E0%25A5%258D%25E0%25A4%25AF%25E0%25A4%25AE%25E0%25A5%2580-%25E0%25A4%2595%25E0%25A5%2580-%25E0%25A4%25AE%25E0%25A4%25BE%25E0%25A4%25B0%25E0%25A5%258D%25E0%25A4%2597%25E0%25A4%25A6%25E0%25A4%25B0%25E0%25A5%258D%25E0%25A4%25B6%25E0%25A4%25BF%25E0%25A4%2595%25E0%25A4%25BE.html",
+     "engine_score": 0.9358,
+     "judge_score": null
+    },
+    {
+     "url": "https://samacharagency.com/india-news/story/education-system-in-india-2025",
+     "engine_score": 0.9348,
+     "judge_score": null
+    },
+    {
+     "url": "https://taratimes.com/bharatiya-shiksha-vyvasta",
+     "engine_score": 0.1487,
+     "judge_score": null
+    },
+    {
+     "url": "https://drishtiias.com/hindi/daily-updates/daily-news-editorials/revamping-india-s-higher-education-system",
+     "engine_score": 0.0932,
+     "judge_score": null
+    }
+   ]
+  }
+ ]
+}

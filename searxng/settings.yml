@@ -1,0 +1,79 @@
+# SearXNG configuration for tavilyd.
+# - JSON API enabled (the api service is the only consumer)
+# - limiter and bot detection disabled: SearXNG is reachable only on the
+#   compose network, never from the host or the internet
+# - engines tuned for the English web; Google/Bing may rate-limit at volume
+use_default_settings: true
+
+general:
+  instance_name: "tavilyd"
+  debug: false
+  enable_metrics: false
+
+server:
+  # Overridden at runtime by SEARXNG_SECRET (see .env / docker-compose.yml).
+  # Set a unique value: openssl rand -hex 32
+  secret_key: "overridden-by-SEARXNG_SECRET"
+  limiter: false
+  public_instance: false
+  image_proxy: false
+  method: "GET"
+  http_protocol_version: "1.0"
+
+search:
+  safe_search: 0
+  # Shorter than upstream defaults (180/3600/180) so a blocked engine comes
+  # back within minutes instead of an hour; our own cooldown spreads load.
+  suspended_times:
+    SearxEngineAccessDenied: 120
+    SearxEngineCaptcha: 600
+    SearxEngineTooManyRequests: 120
+    cf_SearxEngineCaptcha: 1800
+    cf_SearxEngineAccessDenied: 1800
+    recaptcha_SearxEngineCaptcha: 1800
+  default_lang: "en"
+  autocomplete: ""
+  formats:
+    - html
+    - json
+
+botdetection:
+  # The api is the only client; allow the whole private network.
+  ip_limit:
+    limit: 100000
+    interval: 3600
+  ip_lists:
+    pass_ip:
+      - "0.0.0.0/0"
+      - "::/0"
+  link_token: false
+
+engines:
+  - name: google
+    engine: google
+    shortcut: g
+    # disabled by default: p95 6 s hangs even when other engines answer
+    disabled: true
+  - name: bing
+    engine: bing
+    shortcut: b
+    disabled: false
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+    disabled: false
+  - name: brave
+    engine: brave
+    shortcut: br
+    disabled: false
+  - name: yahoo
+    engine: yahoo
+    shortcut: yh
+    disabled: false
+
+outgoing:
+  request_timeout: 2.0
+  max_request_timeout: 2.5
+  pool_connections: 100
+  pool_maxsize: 20
+  enable_http2: true

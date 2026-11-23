@@ -1,0 +1,519 @@
+{
+  "label": "cold-after",
+  "base_url": "http://127.0.0.1:8080",
+  "nonce": "gukkap",
+  "generated_at": "2026-11-22T10:45:22Z",
+  "gpu": {},
+  "records": [
+    {
+      "mode": "basic",
+      "query": "golang context cancellation best practices gukkap01",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1206.0,
+        "tier1": 0.0,
+        "tier2": 0.0,
+        "rerank": 0.0,
+        "total": 1207.0
+      },
+      "client_ms": 1219.83,
+      "response_time": 1.207,
+      "results": 0,
+      "request_id": "e1f3c9f1-4c4e-497f-ba10-9ba5eccdc89e"
+    },
+    {
+      "mode": "basic",
+      "query": "python asyncio taskgroup vs gather gukkap02",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1203.0,
+        "tier1": 2079.0,
+        "tier2": 0.0,
+        "rerank": 524.0,
+        "total": 2556.0
+      },
+      "client_ms": 2557.19,
+      "response_time": 2.556,
+      "results": 1,
+      "request_id": "19395fd1-c49d-4200-ab54-c1e50d026a81"
+    },
+    {
+      "mode": "basic",
+      "query": "kubernetes pod disruption budget example gukkap03",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1205.0,
+        "tier1": 6840.0,
+        "tier2": 0.0,
+        "rerank": 435.0,
+        "total": 3143.0
+      },
+      "client_ms": 3144.68,
+      "response_time": 3.144,
+      "results": 1,
+      "request_id": "07ec5e6d-bebc-4cf7-a3b9-e7074e9deb53"
+    },
+    {
+      "mode": "basic",
+      "query": "postgres index bloat diagnosis gukkap04",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 482.0,
+        "tier1": 10689.0,
+        "tier2": 0.0,
+        "rerank": 600.0,
+        "total": 3199.0
+      },
+      "client_ms": 3200.96,
+      "response_time": 3.2,
+      "results": 1,
+      "request_id": "81f12b45-5226-4022-bad3-ac5638714bdd"
+    },
+    {
+      "mode": "basic",
+      "query": "redis persistence aof vs rdb tradeoffs gukkap05",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1204.0,
+        "tier1": 7191.0,
+        "tier2": 0.0,
+        "rerank": 444.0,
+        "total": 3129.0
+      },
+      "client_ms": 3130.46,
+      "response_time": 3.13,
+      "results": 1,
+      "request_id": "e40376e1-7421-4e5b-80aa-7e8da263df0a"
+    },
+    {
+      "mode": "basic",
+      "query": "docker compose healthcheck depends_on gukkap06",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 503.0,
+        "tier1": 958.0,
+        "tier2": 0.0,
+        "rerank": 262.0,
+        "total": 1038.0
+      },
+      "client_ms": 1039.31,
+      "response_time": 1.039,
+      "results": 1,
+      "request_id": "549e58d1-4472-40df-98b2-365a4b08be3f"
+    },
+    {
+      "mode": "basic",
+      "query": "linux cgroup v2 memory limit gukkap07",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 477.0,
+        "tier1": 4859.0,
+        "tier2": 0.0,
+        "rerank": 518.0,
+        "total": 2049.0
+      },
+      "client_ms": 2050.14,
+      "response_time": 2.049,
+      "results": 1,
+      "request_id": "f32242ba-5ac2-419e-af4a-2a1a70254e5f"
+    },
+    {
+      "mode": "basic",
+      "query": "nginx reverse proxy websocket upgrade gukkap08",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1203.0,
+        "tier1": 4436.0,
+        "tier2": 0.0,
+        "rerank": 518.0,
+        "total": 2731.0
+      },
+      "client_ms": 2732.67,
+      "response_time": 2.732,
+      "results": 4,
+      "request_id": "8a415d56-c45d-4845-9ed8-3d27921eee13"
+    },
+    {
+      "mode": "basic",
+      "query": "typescript decorators metadata reflection gukkap09",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 810.0,
+        "tier1": 6476.0,
+        "tier2": 0.0,
+        "rerank": 297.0,
+        "total": 2496.0
+      },
+      "client_ms": 2497.75,
+      "response_time": 2.497,
+      "results": 1,
+      "request_id": "70a9f6f5-1941-47c9-82ce-5863fcdaf540"
+    },
+    {
+      "mode": "basic",
+      "query": "rust async runtime tokio work stealing gukkap10",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 830.0,
+        "tier1": 1955.0,
+        "tier2": 0.0,
+        "rerank": 539.0,
+        "total": 2108.0
+      },
+      "client_ms": 2109.04,
+      "response_time": 2.108,
+      "results": 4,
+      "request_id": "38f4722e-617a-4d00-9df6-f004c976af0d"
+    },
+    {
+      "mode": "basic",
+      "query": "sqlite wal mode concurrent readers gukkap11",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 827.0,
+        "tier1": 2610.0,
+        "tier2": 0.0,
+        "rerank": 735.0,
+        "total": 2075.0
+      },
+      "client_ms": 2075.94,
+      "response_time": 2.075,
+      "results": 2,
+      "request_id": "00e439ec-d57b-42cd-8f22-7d2eefa19c36"
+    },
+    {
+      "mode": "basic",
+      "query": "prometheus histogram quantiles explained gukkap12",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 957.0,
+        "tier1": 3037.0,
+        "tier2": 0.0,
+        "rerank": 537.0,
+        "total": 2439.0
+      },
+      "client_ms": 2440.81,
+      "response_time": 2.44,
+      "results": 1,
+      "request_id": "9944a9f6-0d0a-4dd2-a032-fd3e7da26f39"
+    },
+    {
+      "mode": "basic",
+      "query": "kafka exactly once semantics transactions gukkap13",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 832.0,
+        "tier1": 4755.0,
+        "tier2": 0.0,
+        "rerank": 406.0,
+        "total": 2363.0
+      },
+      "client_ms": 2364.09,
+      "response_time": 2.363,
+      "results": 3,
+      "request_id": "08d0843a-a78c-4e5a-bc8f-19c8b6580022"
+    },
+    {
+      "mode": "basic",
+      "query": "http2 server push deprecated why gukkap14",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 836.0,
+        "tier1": 3605.0,
+        "tier2": 0.0,
+        "rerank": 406.0,
+        "total": 2166.0
+      },
+      "client_ms": 2167.73,
+      "response_time": 2.167,
+      "results": 5,
+      "request_id": "3ec59a3b-17e1-41cd-90b6-de715299fbe8"
+    },
+    {
+      "mode": "basic",
+      "query": "websocket load balancing haproxy gukkap15",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 823.0,
+        "tier1": 3295.0,
+        "tier2": 0.0,
+        "rerank": 437.0,
+        "total": 2078.0
+      },
+      "client_ms": 2079.35,
+      "response_time": 2.078,
+      "results": 2,
+      "request_id": "6db319ee-ccb8-4abb-bb2f-9428a5d7ff83"
+    },
+    {
+      "mode": "basic",
+      "query": "react server components streaming gukkap16",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1052.0,
+        "tier1": 1362.0,
+        "tier2": 0.0,
+        "rerank": 299.0,
+        "total": 1718.0
+      },
+      "client_ms": 1718.98,
+      "response_time": 1.718,
+      "results": 2,
+      "request_id": "7f10b9ea-9a23-41b3-abc0-80bec3d29d6c"
+    },
+    {
+      "mode": "basic",
+      "query": "css container queries support gukkap17",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1014.0,
+        "tier1": 5173.0,
+        "tier2": 0.0,
+        "rerank": 412.0,
+        "total": 2493.0
+      },
+      "client_ms": 2494.63,
+      "response_time": 2.494,
+      "results": 1,
+      "request_id": "d99c6f81-613b-410c-850f-051f8784b825"
+    },
+    {
+      "mode": "basic",
+      "query": "webassembly component model status gukkap18",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 980.0,
+        "tier1": 2308.0,
+        "tier2": 0.0,
+        "rerank": 571.0,
+        "total": 2107.0
+      },
+      "client_ms": 2108.34,
+      "response_time": 2.107,
+      "results": 2,
+      "request_id": "370756a4-b038-4d49-8a25-8e86ba7f164d"
+    },
+    {
+      "mode": "basic",
+      "query": "open telemetry collector pipeline gukkap19",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 873.0,
+        "tier1": 2598.0,
+        "tier2": 0.0,
+        "rerank": 409.0,
+        "total": 1696.0
+      },
+      "client_ms": 1697.02,
+      "response_time": 1.696,
+      "results": 2,
+      "request_id": "732d38c0-33c8-49b8-b443-6cdc0784ff7b"
+    },
+    {
+      "mode": "basic",
+      "query": "terraform state locking dynamodb gukkap20",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 1143.0,
+        "tier1": 4223.0,
+        "tier2": 0.0,
+        "rerank": 374.0,
+        "total": 2377.0
+      },
+      "client_ms": 2378.19,
+      "response_time": 2.377,
+      "results": 5,
+      "request_id": "8e7122fc-1da0-488c-bad8-64fe448bbb24"
+    },
+    {
+      "mode": "basic",
+      "query": "aws lambda cold start mitigation gukkap21",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 889.0,
+        "tier1": 2362.0,
+        "tier2": 0.0,
+        "rerank": 453.0,
+        "total": 1876.0
+      },
+      "client_ms": 1877.62,
+      "response_time": 1.877,
+      "results": 1,
+      "request_id": "a8e049b2-88e6-4332-97fb-6a9f75af010d"
+    },
+    {
+      "mode": "basic",
+      "query": "cloudflare workers durable objects gukkap22",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 772.0,
+        "tier1": 1760.0,
+        "tier2": 0.0,
+        "rerank": 305.0,
+        "total": 1633.0
+      },
+      "client_ms": 1633.89,
+      "response_time": 1.633,
+      "results": 2,
+      "request_id": "5d146c4b-72e7-4070-981e-96fc93ec8899"
+    },
+    {
+      "mode": "basic",
+      "query": "grpc deadline propagation gukkap23",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 953.0,
+        "tier1": 3735.0,
+        "tier2": 0.0,
+        "rerank": 370.0,
+        "total": 2142.0
+      },
+      "client_ms": 2143.57,
+      "response_time": 2.143,
+      "results": 4,
+      "request_id": "98b8e5b0-49d8-4125-952b-b088fee368de"
+    },
+    {
+      "mode": "basic",
+      "query": "protobuf field presence optional gukkap24",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 870.0,
+        "tier1": 3604.0,
+        "tier2": 0.0,
+        "rerank": 400.0,
+        "total": 1959.0
+      },
+      "client_ms": 1959.97,
+      "response_time": 1.959,
+      "results": 5,
+      "request_id": "b2fca37e-6ce5-4251-9d50-74366e6d2b7d"
+    },
+    {
+      "mode": "basic",
+      "query": "sql injection prepared statements gukkap25",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 896.0,
+        "tier1": 5980.0,
+        "tier2": 0.0,
+        "rerank": 464.0,
+        "total": 2594.0
+      },
+      "client_ms": 2595.78,
+      "response_time": 2.595,
+      "results": 2,
+      "request_id": "3ac47358-8c55-4833-96ef-20b6d333c77c"
+    },
+    {
+      "mode": "basic",
+      "query": "oauth2 pkce flow mobile apps gukkap26",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 997.0,
+        "tier1": 1888.0,
+        "tier2": 0.0,
+        "rerank": 377.0,
+        "total": 1817.0
+      },
+      "client_ms": 1818.25,
+      "response_time": 1.817,
+      "results": 5,
+      "request_id": "df13a6da-4a5f-48cb-bf1f-0450c494ed93"
+    },
+    {
+      "mode": "basic",
+      "query": "jwt rotation refresh tokens gukkap27",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 802.0,
+        "tier1": 4724.0,
+        "tier2": 0.0,
+        "rerank": 356.0,
+        "total": 1995.0
+      },
+      "client_ms": 1996.58,
+      "response_time": 1.996,
+      "results": 4,
+      "request_id": "00f89734-34e3-4da4-83d0-564ddbb40d2f"
+    },
+    {
+      "mode": "basic",
+      "query": "bash process substitution examples gukkap28",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 876.0,
+        "tier1": 5758.0,
+        "tier2": 0.0,
+        "rerank": 328.0,
+        "total": 2275.0
+      },
+      "client_ms": 2276.63,
+      "response_time": 2.276,
+      "results": 2,
+      "request_id": "417b6e0f-ba76-4765-a446-578dbaa5fc55"
+    },
+    {
+      "mode": "basic",
+      "query": "git rebase interactive squash gukkap29",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 815.0,
+        "tier1": 1335.0,
+        "tier2": 0.0,
+        "rerank": 447.0,
+        "total": 1651.0
+      },
+      "client_ms": 1652.52,
+      "response_time": 1.652,
+      "results": 1,
+      "request_id": "742a3e24-2248-40be-8240-5a28a152e1aa"
+    },
+    {
+      "mode": "basic",
+      "query": "ffmpeg hardware acceleration nvenc gukkap30",
+      "status": 200,
+      "timing": {
+        "cache": 0.0,
+        "search": 945.0,
+        "tier1": 4672.0,
+        "tier2": 0.0,
+        "rerank": 487.0,
+        "total": 2431.0
+      },
+      "client_ms": 2432.68,
+      "response_time": 2.432,
+      "results": 3,
+      "request_id": "f344cbfc-88ae-4c58-872a-3532ac2bb511"
+    }
+  ]
+}

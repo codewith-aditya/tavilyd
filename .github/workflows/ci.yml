@@ -1,0 +1,88 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: vet, lint, race tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Go
+        uses: actions/setup-go@v7.1.0
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Download modules
+        run: go mod download
+
+      - name: go vet
+        run: go vet ./...
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v9.3.0
+        with:
+          version: v2.15.0
+          args: --timeout=5m
+
+      - name: Tests with race detector
+        run: go test -race -count=1 -covermode=atomic -coverprofile=coverage.out ./...
+
+      - name: Chunker benchmark (smoke)
+        run: go test -run '^$' -bench BenchmarkChunkerSplit -benchtime=1x ./internal/rerank
+
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage.out
+          if-no-files-found: ignore
+
+  spec-drift:
+    name: Tavily OpenAPI drift (non-blocking)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Fetch current spec and diff
+        run: |
+          curl -fsSL https://docs.tavily.com/documentation/api-reference/openapi.json -o /tmp/live.json
+          python3 - <<'PY'
+          import json
+          live = json.load(open("/tmp/live.json"))
+          pinned = json.load(open("internal/api/testdata/tavily-openapi.json"))
+          if live != pinned:
+              print("::warning::Tavily OpenAPI spec changed; review compatibility notes")
+          else:
+              print("spec unchanged")
+          PY
+
+  docker:
+    name: docker build
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build image
+        uses: docker/build-push-action@v7.4.0
+        with:
+          context: .
+          push: false
+          tags: tavilyd:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
